@@ -7,7 +7,7 @@ const {
   dummyRoutes,
   realtimeweatherRoutes,
   forecastWeatherRoutes,
-  recommendationRoutes,
+  cropDataRoutes,
 } = require("./routes");
 
 const app = express();
@@ -18,7 +18,7 @@ app.use(cors({ origin: true, credentials: true }));
 app.use("/dummy", dummyRoutes);
 app.use("/weather", realtimeweatherRoutes);
 app.use("/forecast", forecastWeatherRoutes);
-app.use("/recommendation", recommendationRoutes);
+app.use("/crop-data", cropDataRoutes);
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Dummy Microservice");
