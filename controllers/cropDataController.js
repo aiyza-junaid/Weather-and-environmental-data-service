@@ -129,6 +129,98 @@ const getDayOfYear = (month, day) => {
   return dayOfYear;
 };
 
+// Helper function to calculate various danger levels
+const calculateDangers = (avgTemp, minTemp, maxTemp, cropTempRanges) => {
+  const dangers = {
+    freezingRisk: false,
+    coldStress: false,
+    heatStress: false,
+    extremeHeat: false,
+    details: []
+  };
+
+  // Check for freezing risk
+  if (minTemp <= 0) {
+    dangers.freezingRisk = true;
+    dangers.details.push(`Risk of frost damage at ${minTemp}°C`);
+  }
+
+  // Check for cold stress
+  if (minTemp < cropTempRanges.min.min) {
+    dangers.coldStress = true;
+    dangers.details.push(
+      `Cold stress: minimum temperature ${minTemp}°C below crop minimum ${cropTempRanges.min.min}°C`
+    );
+  }
+
+  // Check for heat stress
+  if (maxTemp > cropTempRanges.optimal.max) {
+    dangers.heatStress = true;
+    dangers.details.push(
+      `Heat stress: maximum temperature ${maxTemp}°C above optimal maximum ${cropTempRanges.optimal.max}°C`
+    );
+  }
+
+  // Check for extreme heat
+  if (maxTemp > cropTempRanges.max.max) {
+    dangers.extremeHeat = true;
+    dangers.details.push(
+      `Extreme heat: maximum temperature ${maxTemp}°C above crop maximum ${cropTempRanges.max.max}°C`
+    );
+  }
+
+  return dangers;
+};
+
+// Calculate overall risk level (0-1)
+const calculateOverallRisk = (dangers) => {
+  let riskScore = 0;
+  
+  if (dangers.freezingRisk) riskScore += 0.4;
+  if (dangers.coldStress) riskScore += 0.3;
+  if (dangers.heatStress) riskScore += 0.3;
+  if (dangers.extremeHeat) riskScore += 0.4;
+
+  return Math.min(1, riskScore); // Cap at 1
+};
+
+// Generate recommendations based on identified risks
+const generateRecommendations = (dangers) => {
+  const recommendations = [];
+
+  if (dangers.freezingRisk) {
+    recommendations.push(
+      "Consider using frost protection methods like row covers or sprinkler systems",
+      "Monitor nighttime temperatures closely"
+    );
+  }
+
+  if (dangers.coldStress) {
+    recommendations.push(
+      "Add mulch to regulate soil temperature",
+      "Consider using cold frames or tunnels"
+    );
+  }
+
+  if (dangers.heatStress) {
+    recommendations.push(
+      "Ensure adequate irrigation",
+      "Consider shade cloth or other cooling methods",
+      "Monitor soil moisture levels carefully"
+    );
+  }
+
+  if (dangers.extremeHeat) {
+    recommendations.push(
+      "Implement emergency irrigation measures",
+      "Apply reflective mulch if available",
+      "Consider temporary shade structures"
+    );
+  }
+
+  return recommendations;
+};
+
 const cropDataController = {
   getData: async (req, res) => {
     try {
@@ -560,6 +652,121 @@ const cropDataController = {
         },
         "Crop recommendations generated successfully"
       );
+    } catch (error) {
+      console.log(error);
+      return responseUtils.handleFailure(res, error);
+    }
+  },
+
+  findEndangeredCrops: async (req, res) => {
+    try {
+      const { temperatures, country, region, startDate } = req.body;
+      
+      // Validate input
+      if (!temperatures || !Array.isArray(temperatures) || !country || !region || !startDate) {
+        return responseUtils.handleBadRequest(
+          res,
+          "Please provide temperatures array, country, region and start date"
+        );
+      }
+  
+      // Read all crop data
+      const cropData = readJsonData(cropCalendarData);
+  
+      // Get crops for the specified region
+      const regionalCrops = cropData.filter(
+        crop => crop["Country Name"] === country && 
+                crop["AgroEcological Zone"] === region
+      );
+  
+      // Calculate temperature metrics
+      const avgTemperature = temperatures.reduce((sum, temp) => sum + temp, 0) / temperatures.length;
+      const minTemperature = Math.min(...temperatures);
+      const maxTemperature = Math.max(...temperatures);
+  
+      // Parse the start date
+      const currentDate = new Date(startDate);
+      const currentMonth = currentDate.getMonth() + 1;
+      const currentDay = currentDate.getDate();
+  
+      const endangeredCrops = regionalCrops.map(crop => {
+        // Parse temperature ranges
+        const tempRanges = parseTempRanges(crop.Temperature);
+        
+        // Check sowing dates
+        const earlyDate = {
+          month: parseInt(crop["Early Sowing"].Month),
+          day: parseInt(crop["Early Sowing"].Day)
+        };
+        
+        const lateDate = {
+          month: parseInt(crop["Later Sowing"].Month),
+          day: parseInt(crop["Later Sowing"].Day)
+        };
+  
+        // Calculate danger levels
+        const dangers = calculateDangers(
+          avgTemperature,
+          minTemperature,
+          maxTemperature,
+          tempRanges
+        );
+  
+        // Check if current date is within sowing period
+        const dateScore = calculateDateScore(
+          currentMonth,
+          currentDay,
+          earlyDate,
+          lateDate
+        );
+  
+        // Only include if the crop is in active growing period
+        if (dateScore > 0) {
+          return {
+            crop: crop.Crop,
+            riskLevel: calculateOverallRisk(dangers),
+            details: {
+              temperature: {
+                current: {
+                  avg: avgTemperature.toFixed(1),
+                  min: minTemperature,
+                  max: maxTemperature
+                },
+                ideal: {
+                  min: tempRanges.min,
+                  optimal: tempRanges.optimal,
+                  max: tempRanges.max
+                }
+              },
+              risks: dangers,
+              sowingDates: {
+                early: `${earlyDate.day}/${earlyDate.month}`,
+                late: `${lateDate.day}/${lateDate.month}`
+              },
+              recommendations: generateRecommendations(dangers),
+              additionalInfo: crop["Additional information"]
+            }
+          };
+        }
+        return null;
+      }).filter(crop => crop !== null && crop.riskLevel > 0);
+  
+      // Sort by risk level (highest risk first)
+      const sortedEndangeredCrops = endangeredCrops.sort((a, b) => b.riskLevel - a.riskLevel);
+  
+      return responseUtils.handleSuccess(
+        res,
+        {
+          weatherSummary: {
+            average: avgTemperature.toFixed(1),
+            min: minTemperature,
+            max: maxTemperature
+          },
+          endangeredCrops: sortedEndangeredCrops
+        },
+        "Endangered crops analysis completed successfully"
+      );
+  
     } catch (error) {
       console.log(error);
       return responseUtils.handleFailure(res, error);

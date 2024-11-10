@@ -11,5 +11,6 @@ router.get("/crop/sowing", cropDataController.getSowingData);
 router.get("/crop/harvesting", cropDataController.getHarvestingData);
 
 router.post("/crops/recommended", cropDataController.findRecommendedCrops);
+router.post("/crops/endangered", cropDataController.findEndangeredCrops);
 
 module.exports = router;
