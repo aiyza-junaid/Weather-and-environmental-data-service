@@ -3,8 +3,12 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 // const cookieParser = require("cookie-parser");
 dotenv.config();
-const { dummyRoutes , realtimeweatherRoutes, forecastWeatherRoutes/*, dummyRoutes2, dummyRoutes3 */ } = require("./routes");
-
+const {
+  dummyRoutes,
+  realtimeweatherRoutes,
+  forecastWeatherRoutes,
+  recommendationRoutes,
+} = require("./routes");
 
 const app = express();
 // app.use(cookieParser());
@@ -13,12 +17,12 @@ app.use(express.json({ limit: "10mb" })); // if you want to send images or files
 app.use(cors({ origin: true, credentials: true }));
 app.use("/dummy", dummyRoutes);
 app.use("/weather", realtimeweatherRoutes);
-app.use("/forecast", forecastWeatherRoutes)
+app.use("/forecast", forecastWeatherRoutes);
+app.use("/recommendation", recommendationRoutes);
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Dummy Microservice");
 });
-
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

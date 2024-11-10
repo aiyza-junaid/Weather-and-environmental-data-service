@@ -1,11 +1,11 @@
 const dummyRoutes = require("./dummyRoutes");
-const realtimeweatherRoutes = require("./realTimeWeatherRoute")
-const forecastWeatherRoutes = require("./ForecastWeatherRoute")
-// add more routes here
+const realtimeweatherRoutes = require("./realTimeWeatherRoute");
+const forecastWeatherRoutes = require("./ForecastWeatherRoute");
+const recommendationRoutes = require("./recommendationRoutes");
 
 module.exports = {
   dummyRoutes,
   realtimeweatherRoutes,
-  forecastWeatherRoutes
-  // export more routes here
+  forecastWeatherRoutes,
+  recommendationRoutes,
 };

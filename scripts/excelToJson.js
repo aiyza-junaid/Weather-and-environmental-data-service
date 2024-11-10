@@ -41,15 +41,24 @@ function convertExcelToJson() {
       'Day': 15,
       'Month': 16
     },
-    'AgroEcological Zone Description': 17,
-    'AgroEcological Zone Practices': 18,
-    'AgroEcological Zone Units': 19,
-    'Comments En': 20,
-    'Comments ES': 21,
-    'Comments FR': 22,
-    'Comments ZH': 23,
-    'Comments AR': 24,
-    'Comments RU': 25
+    'Temperature': {
+      'Min': 17,
+      'Optimal': 18,
+      'Max': 19
+    },
+    'Precipitation': {
+      'Value': 20,
+      'Unit': 21
+    },
+    'AgroEcological Zone Description': 22,
+    'AgroEcological Zone Practices': 23,
+    'AgroEcological Zone Units': 24,
+    'Comments En': 25,
+    'Comments ES': 26,
+    'Comments FR': 27,
+    'Comments ZH': 28,
+    'Comments AR': 29,
+    'Comments RU': 30,
   };
 
   // Process each data row starting from row 2 (1-based)
