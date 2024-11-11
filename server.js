@@ -14,6 +14,8 @@ app.use(cors({ origin: true, credentials: true }));
 app.use("/dummy", dummyRoutes);
 app.use("/weather", realtimeweatherRoutes);
 app.use("/forecast", forecastWeatherRoutes)
+app.use('/alerts', extremeWeatherAlertRoute);
+
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Dummy Microservice");

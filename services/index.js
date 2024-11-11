@@ -1,11 +1,13 @@
-const dummyService = require("./dummyService");
-const realTimeWeatherService = require("./realTimeWeatherService")
-const forecastWeatherService = require("./forecastWeatherService")
+const dummyService = require("../Weather-and-environmental-data-service-main/services/dummyService");
+const realTimeWeatherService = require("../Weather-and-environmental-data-service-main/services/realTimeWeatherService")
+const forecastWeatherService = require("../Weather-and-environmental-data-service-main/services/forecastWeatherService")
 // add more services here
 
 module.exports = {
   dummyService,
   realTimeWeatherService,
-  forecastWeatherService
+  forecastWeatherService,
+  extremeWeatherAlertService: require('./extremeWeatherAlertService'),
+
   // export more services here
 };

@@ -1,12 +1,13 @@
 const dummyController = require('./dummyController');
 const weatherController = require('./realTimeWeatherController')
 const forecastweatherController = require('./ForecastWeatherController')
-// add more controllers here
+const ExtremeWeatherAlertController= require('./ExtremeWeatherAlertController')
 
 module.exports = {
   dummyController,
   weatherController,
-  forecastweatherController
+  forecastweatherController,
+  ExtremeWeatherAlertController
   
   // export more controllers here
 };
