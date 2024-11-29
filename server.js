@@ -8,6 +8,7 @@ const {
   realtimeweatherRoutes,
   forecastWeatherRoutes,
   cropDataRoutes,
+  farmingActivityRoutes,
 } = require("./routes");
 
 const app = express();
@@ -19,6 +20,8 @@ app.use("/dummy", dummyRoutes);
 app.use("/weather", realtimeweatherRoutes);
 app.use("/forecast", forecastWeatherRoutes);
 app.use("/crop-data", cropDataRoutes);
+app.use("/farming-activity", farmingActivityRoutes);
+
 
 app.get("/", (req, res) => {
   res.send("Welcome to the Dummy Microservice");
