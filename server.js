@@ -9,6 +9,7 @@ const {
   forecastWeatherRoutes,
   cropDataRoutes,
   farmingActivityRoutes,
+  extremeWeatherAlertRoute
 } = require("./routes");
 
 const app = express();
@@ -21,7 +22,6 @@ app.use("/weather", realtimeweatherRoutes);
 app.use("/forecast", forecastWeatherRoutes);
 app.use("/crop-data", cropDataRoutes);
 app.use("/farming-activity", farmingActivityRoutes);
-
 app.use('/alerts', extremeWeatherAlertRoute);
 
 

@@ -8,9 +8,8 @@ const extremeWeatherAlertRoute = require("./ExtremeWeatherAlertRoute");
 module.exports = {
   dummyRoutes,
   realtimeweatherRoutes,
-  forecastWeatherRoutes,,
-  extremeWeatherAlertRoute
-  
+  forecastWeatherRoutes,
+  extremeWeatherAlertRoute,
   cropDataRoutes,
   farmingActivityRoutes
 };
