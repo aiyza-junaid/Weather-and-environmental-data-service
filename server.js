@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 // const cookieParser = require("cookie-parser");
 dotenv.config();
-const { dummyRoutes , realtimeweatherRoutes, forecastWeatherRoutes/*, dummyRoutes2, dummyRoutes3 */ } = require("./routes");
+const { dummyRoutes , realtimeweatherRoutes, forecastWeatherRoutes,extremeWeatherAlertRoute /* dummyRoutes2, dummyRoutes3 */ } = require("./routes");
 
 
 const app = express();

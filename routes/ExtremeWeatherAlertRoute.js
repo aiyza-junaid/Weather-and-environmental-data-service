@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const extremeWeatherAlertsController = require('../controllers/extremeWeatherAlertsController');
+const extremeWeatherAlertsController = require('../controllers/ExtremeWeatherAlertController');
 
-// Define routes for extreme weather alerts
 router.get('/extreme-weather-alerts', extremeWeatherAlertsController.getExtremeWeatherAlerts);
 router.get('/storm-alerts', extremeWeatherAlertsController.getStormAlerts);
 router.get('/flood-alerts', extremeWeatherAlertsController.getFloodAlerts);
