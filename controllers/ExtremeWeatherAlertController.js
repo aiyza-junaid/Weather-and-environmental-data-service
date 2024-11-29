@@ -1,4 +1,4 @@
-const extremeWeatherAlertsService = require('../services/extremeWeatherAlertsService');
+const extremeWeatherAlertsService = require('../services/extremeWeatherAlertService');
 const { handleError } = require('../utils/errorUtils'); 
 
 const extremeWeatherAlertsController = {
