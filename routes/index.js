@@ -1,15 +1,16 @@
 const dummyRoutes = require("./dummyRoutes");
-const realtimeweatherRoutes = require("./realTimeWeatherRoute")
-const forecastWeatherRoutes = require("./ForecastWeatherRoute")
-const extremeWeatherAlertRoute = require('./ExtremeWeatherAlertRoute');
-
-// add more routes here
+const realtimeweatherRoutes = require("./realTimeWeatherRoute");
+const forecastWeatherRoutes = require("./ForecastWeatherRoute");
+const cropDataRoutes = require("./cropDataRoutes");
+const farmingActivityRoutes = require("./farmingActivityRoutes");
+const extremeWeatherAlertRoute = require("./ExtremeWeatherAlertRoute");
 
 module.exports = {
   dummyRoutes,
   realtimeweatherRoutes,
-  forecastWeatherRoutes,
+  forecastWeatherRoutes,,
   extremeWeatherAlertRoute
   
-  // export more routes here
+  cropDataRoutes,
+  farmingActivityRoutes
 };

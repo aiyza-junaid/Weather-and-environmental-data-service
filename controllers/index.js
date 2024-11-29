@@ -1,13 +1,15 @@
 const dummyController = require('./dummyController');
 const weatherController = require('./realTimeWeatherController')
 const forecastweatherController = require('./ForecastWeatherController')
-const ExtremeWeatherAlertController= require('./ExtremeWeatherAlertController')
+const cropDataController = require('./cropDataController')
+const farmingActivityController = require('./farmingActivityController')
+const ExtremeWeatherAlertController = require('./ExtremeWeatherAlertController')
 
 module.exports = {
   dummyController,
   weatherController,
   forecastweatherController,
-  ExtremeWeatherAlertController
-  
-  // export more controllers here
+  ExtremeWeatherAlertController,
+  cropDataController,
+  farmingActivityController
 };
