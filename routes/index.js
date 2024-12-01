@@ -4,6 +4,7 @@ const forecastWeatherRoutes = require("./ForecastWeatherRoute");
 const cropDataRoutes = require("./cropDataRoutes");
 const farmingActivityRoutes = require("./farmingActivityRoutes");
 const extremeWeatherAlertRoute = require("./ExtremeWeatherAlertRoute");
+const historicalWeatherRoute = require("./historicalWeatherRoute")
 
 module.exports = {
   dummyRoutes,
@@ -11,5 +12,6 @@ module.exports = {
   forecastWeatherRoutes,
   extremeWeatherAlertRoute,
   cropDataRoutes,
-  farmingActivityRoutes
+  farmingActivityRoutes,
+  historicalWeatherRoute
 };
