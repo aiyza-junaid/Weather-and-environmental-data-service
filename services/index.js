@@ -1,11 +1,11 @@
 const dummyService = require("./dummyService");
 const realTimeWeatherService = require("./realTimeWeatherService")
 const forecastWeatherService = require("./forecastWeatherService")
-const extremeWeatherAlertService = require("./extremeWeatherAlertService")
+const WeatherAlertService = require("./extremeWeatherAlertService")
 
 module.exports = {
   dummyService,
   realTimeWeatherService,
   forecastWeatherService,
-  extremeWeatherAlertService,
+  WeatherAlertService,
 };

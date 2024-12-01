@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 const cors = require("cors");
 // const cookieParser = require("cookie-parser");
 dotenv.config();
+<<<<<<< HEAD
 const {
   dummyRoutes,
   realtimeweatherRoutes,
@@ -11,6 +12,10 @@ const {
   farmingActivityRoutes,
   extremeWeatherAlertRoute
 } = require("./routes");
+=======
+const { dummyRoutes , realtimeweatherRoutes, forecastWeatherRoutes,extremeWeatherAlertRoute /* dummyRoutes2, dummyRoutes3 */ } = require("./routes");
+
+>>>>>>> master
 
 const app = express();
 // app.use(cookieParser());
