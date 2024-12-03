@@ -1,151 +1,174 @@
-// weatherAlertService.js
-const { getLocationBasedForecast } = require('./forecastWeatherService');
-const { sendEmailAlert, sendPushNotification } = require('./alertService');
-const weatherAlertsConfig = require('../utils/thresholds');
+const axios = require('axios');
+const nodemailer = require('nodemailer');
+const forecastWeatherService = require('./forecastWeatherService');
 
-class WeatherAlertService {
-  constructor(userPreferences, location, user) {
-    this.userPreferences = userPreferences;  // User preferences for alert notifications
-    this.location = location;  // Location for weather data
-    this.user = user;  // User details for notification (email, pushToken)
-  }
+// Configure email transporter
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
+  },
+});
 
-  // Helper function to create an alert
-  createAlert(alertType, conditionType, conditionDescription, severity) {
-    return {
-      alertId: `${this.location}_${alertType}_${Date.now()}`,
-      userId: this.user.email,
-      alertType: alertType,
-      severity: severity,
+/**
+ * Generate weather alerts based on thresholds and weather data.
+ * @param {Object} weatherData - Weather data from the API.
+ * @param {string} location - User's location.
+ * @param {Object} thresholds - User-specific thresholds for alerts.
+ * @returns {Array<Object>} - Array of generated alerts.
+ */
+const generateWeatherAlerts = (weatherData, location, thresholds) => {
+  const alerts = [];
+
+  // Heat Alert
+  if (weatherData.current.temp_c > thresholds.temperature.heat) {
+    alerts.push({
+      alertId: `${location}_heat_${Date.now()}`,
+      alertType: 'extreme_weather',
       alertCondition: {
-        extremeWeather: {
-          conditionType: conditionType,
-          conditionDescription: conditionDescription,
-        },
+        conditionType: 'Temperature',
+        conditionDescription: `Heat Alert: Temperature exceeds ${thresholds.temperature.heat}°C`,
       },
-    };
+    });
   }
 
-  // Helper function to check if a condition crosses the threshold
-  checkThreshold(value, threshold, comparison) {
-    switch (comparison) {
-      case 'greater':
-        return value > threshold;
-      case 'less':
-        return value < threshold;
-      case 'greaterEqual':
-        return value >= threshold;
-      case 'lessEqual':
-        return value <= threshold;
-      default:
-        return false;
-    }
+  // Frost Warning
+  if (weatherData.current.temp_c < thresholds.temperature.frost) {
+    alerts.push({
+      alertId: `${location}_frost_${Date.now()}`,
+      alertType: 'frost_warning',
+      alertCondition: {
+        conditionType: 'Temperature',
+        conditionDescription: `Frost Warning: Temperature below ${thresholds.temperature.frost}°C`,
+      },
+    });
   }
 
-  // Generate weather alerts based on weather data
-  generateWeatherAlerts(weatherData) {
-    const alerts = [];
-    const locationThresholds = weatherAlertsConfig.locationSpecificThresholds[this.location] || {};
-
-    // Heat Alert (Temperature exceeds threshold)
-    if (this.checkThreshold(weatherData.current.temp_c, weatherAlertsConfig.temperature.heat, 'greater')) {
-      alerts.push(this.createAlert("heat_alert", "Temperature", `Heat Alert: Temperature exceeds ${weatherAlertsConfig.temperature.heat}°C`, weatherAlertsConfig.severity.heat));
-    }
-
-    // Frost Alert (Temperature below threshold)
-    if (this.checkThreshold(weatherData.current.temp_c, weatherAlertsConfig.temperature.frost, 'less')) {
-      alerts.push(this.createAlert("frost_warning", "Temperature", `Frost Warning: Temperature below ${weatherAlertsConfig.temperature.frost}°C`, weatherAlertsConfig.severity.frost));
-    }
-
-    // Drought Alert (No precipitation over a certain number of days)
-    if (this.checkThreshold(weatherData.forecast.forecastday[0].day.totalprecip_mm, weatherAlertsConfig.drought.noRainDays, 'less')) {
-      alerts.push(this.createAlert("drought_alert", "Precipitation", `Drought Alert: No rain for ${weatherAlertsConfig.drought.noRainDays} days`, weatherAlertsConfig.severity.drought));
-    }
-
-    // Storm Alert (Condition contains storm)
-    if (weatherData.forecast.forecastday[0].day.condition.text.toLowerCase().includes(weatherAlertsConfig.storm.keyword)) {
-      alerts.push(this.createAlert("storm_alert", "Weather", "Storm Alert: Storm expected in the forecast", weatherAlertsConfig.severity.storm));
-    }
-
-    // Flood Alert (Heavy rainfall or prolonged rain)
-    if (this.checkThreshold(weatherData.forecast.forecastday[0].day.totalprecip_mm, weatherAlertsConfig.flood.rainfall, 'greater')) {
-      alerts.push(this.createAlert("flood_alert", "Precipitation", "Flood Alert: Heavy rainfall expected", weatherAlertsConfig.severity.flood));
-    }
-
-    // Hail Alert (Condition contains hail)
-    if (weatherData.forecast.forecastday[0].day.condition.text.toLowerCase().includes(weatherAlertsConfig.hail.keyword)) {
-      alerts.push(this.createAlert("hail_alert", "Weather", "Hail Alert: Hail expected in the forecast", weatherAlertsConfig.severity.hail));
-    }
-
-    // Pest Risk Alert (High humidity and favorable temperature range)
-    if (this.checkThreshold(weatherData.current.humidity, weatherAlertsConfig.pestRisk.humidity, 'greater') &&
-        weatherData.current.temp_c >= weatherAlertsConfig.pestRisk.temperatureRange[0] &&
-        weatherData.current.temp_c <= weatherAlertsConfig.pestRisk.temperatureRange[1]) {
-      alerts.push(this.createAlert("pest_risk_alert", "Weather", "Pest Risk Alert: High humidity and favorable temperature for pests", weatherAlertsConfig.severity.pestRisk));
-    }
-
-    // Wind Alert (High wind speed)
-    if (this.checkThreshold(weatherData.current.wind_kph, weatherAlertsConfig.wind.speed, 'greater')) {
-      alerts.push(this.createAlert("wind_alert", "Wind", `Wind Alert: Wind speed exceeds ${weatherAlertsConfig.wind.speed} km/h`, weatherAlertsConfig.severity.wind));
-    }
-
-    // Soil Dryness Alert (No rain for certain days)
-    if (this.checkThreshold(weatherData.forecast.forecastday[0].day.totalprecip_mm, weatherAlertsConfig.soilDryness.dryDays, 'less')) {
-      alerts.push(this.createAlert("soil_dryness_alert", "Precipitation", `Soil Dryness Alert: No rain for ${weatherAlertsConfig.soilDryness.dryDays} days`, weatherAlertsConfig.severity.soilDryness));
-    }
-
-    // UV Index Alert (High UV index)
-    if (this.checkThreshold(weatherData.current.uv, weatherAlertsConfig.uvIndex.threshold, 'greater')) {
-      alerts.push(this.createAlert("uv_index_alert", "UV Index", `UV Index Alert: UV index exceeds ${weatherAlertsConfig.uvIndex.threshold}`, weatherAlertsConfig.severity.uvIndex));
-    }
-
-    // Harvest Readiness Alert (Temperature and precipitation conditions for harvest)
-    if (weatherData.current.temp_c >= weatherAlertsConfig.harvestReadiness.temperatureRange[0] &&
-        weatherData.current.temp_c <= weatherAlertsConfig.harvestReadiness.temperatureRange[1] &&
-        this.checkThreshold(weatherData.forecast.forecastday[0].day.totalprecip_mm, weatherAlertsConfig.harvestReadiness.maxPrecipitation, 'less')) {
-      alerts.push(this.createAlert("harvest_readiness_alert", "Harvest", "Harvest Readiness Alert: Suitable conditions for harvest", weatherAlertsConfig.severity.harvestReadiness));
-    }
-
-    
-
-    return alerts;
+  // Drought Risk
+  if (weatherData.drought_days > thresholds.precipitation.droughtDays) {
+    alerts.push({
+      alertId: `${location}_drought_${Date.now()}`,
+      alertType: 'drought_risk',
+      alertCondition: {
+        conditionType: 'Precipitation',
+        conditionDescription: `Drought Risk: No rain for over ${thresholds.precipitation.droughtDays} days`,
+      },
+    });
   }
 
-  // Function to send generated alerts to the user via email and push notification
-  async sendAlerts(alerts) {
-    for (const alert of alerts) {
-      // Send email alert
-      await sendEmailAlert(this.user.email, 'Weather Alert', alert.alertCondition.extremeWeather.conditionDescription);
-      
-      // Send push notification (if push token is available)
-      if (this.user.pushToken) {
-        await sendPushNotification(this.user.pushToken, alert.alertCondition.extremeWeather.conditionDescription);
-      }
-    }
+  // Flood Warning
+  if (weatherData.current.precip_mm > thresholds.precipitation.flood) {
+    alerts.push({
+      alertId: `${location}_flood_${Date.now()}`,
+      alertType: 'extreme_weather',
+      alertCondition: {
+        conditionType: 'Flood',
+        conditionDescription: `Flood Warning: Heavy rainfall exceeds ${thresholds.precipitation.flood} mm`,
+      },
+    });
   }
 
-  // Main function to handle the entire alert generation and sending process
-  async handleWeatherAlerts() {
-    try {
-      const weatherData = await getLocationBasedForecast(this.location, 1);  // Fetch weather for the next day
-
-      // Generate weather alerts based on the fetched data
-      const alerts = this.generateWeatherAlerts(weatherData);
-
-      // If there are alerts, send them to the user
-      if (alerts.length > 0) {
-        console.log(`Weather Alerts for ${this.location}:`);
-        alerts.forEach(alert => {
-          console.log(`${alert.alertCondition.extremeWeather.conditionDescription}`);
-        });
-        await this.sendAlerts(alerts);
-      } else {
-        console.log(`No weather alerts for ${this.location}`);
-      }
-    } catch (error) {
-      console.error("Error retrieving weather alerts:", error);
-    }
+  // Pest Risk Alert
+  const [minTemp, maxTemp] = thresholds.humidity.pestRiskTempRange;
+  if (
+    weatherData.current.humidity > thresholds.humidity.pestRiskHumidity &&
+    weatherData.current.temp_c >= minTemp &&
+    weatherData.current.temp_c <= maxTemp
+  ) {
+    alerts.push({
+      alertId: `${location}_pest_${Date.now()}`,
+      alertType: 'pest_risk',
+      alertCondition: {
+        conditionType: 'Pest Risk',
+        conditionDescription: `Pest Risk Alert: Humidity > ${thresholds.humidity.pestRiskHumidity}%, Temperature between ${minTemp}°C and ${maxTemp}°C`,
+      },
+    });
   }
-}
 
-module.exports = WeatherAlertService;
+  // Wind Alert
+  if (weatherData.current.wind_kph > thresholds.wind.strongWind) {
+    alerts.push({
+      alertId: `${location}_wind_${Date.now()}`,
+      alertType: 'extreme_weather',
+      alertCondition: {
+        conditionType: 'Wind',
+        conditionDescription: `Wind Alert: Wind speed exceeds ${thresholds.wind.strongWind} km/h`,
+      },
+    });
+  }
+
+  // UV Alert
+  if (weatherData.current.uv > thresholds.uv.highUV) {
+    alerts.push({
+      alertId: `${location}_uv_${Date.now()}`,
+      alertType: 'extreme_weather',
+      alertCondition: {
+        conditionType: 'UV',
+        conditionDescription: `UV Alert: UV index exceeds ${thresholds.uv.highUV}`,
+      },
+    });
+  }
+
+  return alerts;
+};
+
+
+const sendAlertEmail = async (alerts, location, recipientEmail) => {
+  const emailContent = `
+  <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6;">
+    <h2 style="text-align: center; color: #0066cc;">Weather Alerts for ${location}</h2>
+    <p style="text-align: center; font-size: 14px; color: #555;">
+      Stay informed with the latest weather updates for your location.
+    </p>
+    <hr style="border: 0; height: 1px; background: #ddd; margin: 20px 0;">
+    ${alerts
+      .map(
+        (alert) => `
+          <div style="border: 1px solid #ddd; border-radius: 5px; padding: 15px; margin-bottom: 20px;">
+            <h3 style="color: #e74c3c;">⚠️ ${alert.alertType.toUpperCase()}</h3>
+            <p><strong>Alert ID:</strong> ${alert.alertId}</p>
+            <p><strong>Condition Type:</strong> ${alert.alertCondition.conditionType}</p>
+            <p><strong>Description:</strong> ${alert.alertCondition.conditionDescription}</p>
+          </div>
+        `
+      )
+      .join('')}
+    <hr style="border: 0; height: 1px; background: #ddd; margin: 20px 0;">
+    <p style="text-align: center; font-size: 12px; color: #999;">
+      This is an automated message. Please do not reply.
+    </p>
+  </div>
+`;
+
+  const mailOptions = {
+    from: process.env.EMAIL_USER,
+    to: recipientEmail,
+    subject: `AgriLink: Extreme Weather Alerts for ${location} 🚨`,
+    html: emailContent,
+  };
+
+  try {
+    await transporter.sendMail(mailOptions);
+    console.log('Weather alerts email sent successfully!');
+  } catch (error) {
+    console.error('Error sending email:', error.message);
+    throw error;
+  }
+};
+
+const updateUserThresholds = async (userID, newThresholds) => {
+  const user = await User.findById(userID);
+  if (!user) {
+    throw new Error('User not found');
+  }
+
+  // Update and save thresholds
+  user.thresholds = newThresholds;
+  await user.save();
+
+  return user.thresholds; // Return updated thresholds
+};
+
+module.exports = { generateWeatherAlerts, sendAlertEmail, updateUserThresholds };
+

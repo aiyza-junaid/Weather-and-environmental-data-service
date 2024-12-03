@@ -1,72 +1,137 @@
-const extremeWeatherAlertsService = require('../services/extremeWeatherAlertService');
-const { handleError } = require('../utils/errorUtils'); 
+// controllers/ExtremeWeatherAlertController.js
+const forecastWeatherService = require('../services/forecastWeatherService'); // Import the forecast weather service
+const { generateWeatherAlerts, sendAlertEmail } = require('../services/extremeWeatherAlertService'); // Import the generateWeatherAlerts and sendAlertEmail functions
 
-const extremeWeatherAlertsController = {
-  // Get general extreme weather alerts
-  getExtremeWeatherAlerts: async (req, res) => {
-    try {
-      const location = req.query.q;
-      const data = await extremeWeatherAlertsService.getExtremeWeatherAlerts(location);
-      res.status(200).json(data);
-    } catch (error) {
-      handleError(res, error); 
-    }
-  },
+// GET Route: Get weather alerts based on location
+const getWeatherAlerts = async (req, res) => {
+  const { userID } = req.body;
 
-  // Get storm alerts for a location
-  getStormAlerts: async (req, res) => {
-    try {
-      const location = req.query.q;
-      const data = await extremeWeatherAlertsService.getStormAlerts(location);
-      res.status(200).json(data);
-    } catch (error) {
-      handleError(res, error);
-    }
-  },
+  if (!userID) {
+    return res.status(400).json({ message: 'User ID is required' });
+  }
 
-  // Get flood alerts for a location
-  getFloodAlerts: async (req, res) => {
-    try {
-      const location = req.query.q;
-      const data = await extremeWeatherAlertsService.getFloodAlerts(location);
-      res.status(200).json(data);
-    } catch (error) {
-      handleError(res, error);
+  try {
+    // Check if the user exists
+    const user = await User.findById(userID); // Adjust this according to your database query method
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
     }
-  },
 
-  // Get temperature alerts for a location
-  getTemperatureAlerts: async (req, res) => {
-    try {
-      const location = req.query.q;
-      const data = await extremeWeatherAlertsService.getTemperatureAlerts(location);
-      res.status(200).json(data);
-    } catch (error) {
-      handleError(res, error);
-    }
-  },
+    const { location, thresholds } = user; // Extract location and thresholds
 
-  // Get rain alerts for a location
-  getRainAlerts: async (req, res) => {
-    try {
-      const location = req.query.q;
-      const data = await extremeWeatherAlertsService.getRainAlerts(location);
-      res.status(200).json(data);
-    } catch (error) {
-      handleError(res, error);
-    }
-  },
+    const weatherData = await forecastWeatherService.getLocationBasedForecast(location, 3); // 3-day forecast
+    const alerts = generateWeatherAlerts(weatherData, location, thresholds); // Use thresholds for generating alerts
 
-  getCustomAlert: async (req, res) => {
-    try {
-      const location = req.query.q;
-      const conditions = req.body;  // Assuming conditions will be passed in the request body
-      const data = await extremeWeatherAlertsService.getCustomAlert(location, conditions);
-      res.status(200).json(data);
-    } catch (error) {
-      handleError(res, error);
+    if (alerts.length > 0) {
+      res.status(200).json({
+        location: location,
+        alerts: alerts,
+      });
+    } else {
+      res.status(200).json({
+        location: location,
+        message: "No weather alerts",
+      });
     }
-  },
+  } catch (error) {
+    res.status(500).json({
+      message: "Error fetching weather alerts",
+      error: error.message,
+    });
+  }
 };
 
-module.exports = extremeWeatherAlertsController;
+// POST route: Send weather alerts email
+const sendWeatherAlertsEmail = async (req, res) => {
+  const { userID } = req.body;
+
+  if (!userID) {
+    return res.status(400).json({ message: 'User ID is required' });
+  }
+
+  try {
+    // Check if the user exists
+    const user = await User.findById(userID); // Adjust this according to your database query method
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    const { location, email: recipientEmail, thresholds } = user; // Extract location, email, and thresholds
+
+    const weatherData = await forecastWeatherService.getLocationBasedForecast(location, 3); // 3-day forecast
+    const alerts = generateWeatherAlerts(weatherData, location, thresholds); // Use thresholds for generating alerts
+
+    if (alerts.length > 0) {
+      await sendAlertEmail(alerts, location, recipientEmail); // Send the email to the recipient
+      res.status(200).json({
+        location: location,
+        alerts: alerts,
+        message: 'Weather alerts sent successfully!',
+      });
+    } else {
+      res.status(200).json({
+        location: location,
+        message: "No weather alerts",
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      message: "Error sending weather alerts email",
+      error: error.message,
+    });
+  }
+};
+
+// POST route: Send weather alerts email based on updated thresholds
+const updateThresholds = async (req, res) => {
+  const { userID, newThresholds } = req.body;
+
+  if (!userID) {
+    return res.status(400).json({ message: 'User ID is required' });
+  }
+
+  try {
+    // Check if the user exists
+    const user = await User.findById(userID); // Adjust this according to your database query method
+    if (!user) {
+      return res.status(404).json({ message: 'User not found' });
+    }
+
+    const { location, email: recipientEmail } = user; // Extract location and email
+
+    // If new thresholds are provided, update the user's thresholds
+    let thresholds = user.thresholds;
+    if (newThresholds) {
+      thresholds = await updateUserThresholds(userID, newThresholds);
+    }
+
+    // Fetch weather data and generate alerts based on updated thresholds
+    const weatherData = await forecastWeatherService.getLocationBasedForecast(location, 3); // 3-day forecast
+    const alerts = generateWeatherAlerts(weatherData, location, thresholds); // Use updated thresholds for generating alerts
+
+    if (alerts.length > 0) {
+      await sendAlertEmail(alerts, location, recipientEmail); // Send the email to the recipient
+      res.status(200).json({
+        location: location,
+        alerts: alerts,
+        message: 'Weather alerts sent successfully based on updated thresholds!',
+      });
+    } else {
+      res.status(200).json({
+        location: location,
+        message: 'No weather alerts based on the provided thresholds',
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      message: 'Error sending weather alerts email',
+      error: error.message,
+    });
+  }
+};
+
+module.exports = {
+  getWeatherAlerts,
+  sendWeatherAlertsEmail,
+  updateThresholds,
+};
