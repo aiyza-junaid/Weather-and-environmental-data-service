@@ -13,7 +13,7 @@ const cropCalendarData = path.join(
 const cropDataController = {
   getData: async (req, res) => {
     try {
-      const data = readJsonData(cropCalendarData);
+      const data = cropUtils.readJsonData(cropCalendarData);
       return responseUtils.handleSuccess(
         res,
         data,
@@ -102,7 +102,7 @@ const cropDataController = {
 
   getCountries: async (req, res) => {
     try {
-      const data = readJsonData(cropCalendarData);
+      const data = cropUtils.readJsonData(cropCalendarData);
       const countries = data.map((crop) => crop["Country Name"]);
       const uniqueCountries = [...new Set(countries)];
       return responseUtils.handleSuccess(
@@ -119,7 +119,7 @@ const cropDataController = {
   getRegions: async (req, res) => {
     try {
       const { country, crop } = req.query;
-      const data = readJsonData(cropCalendarData);
+      const data = cropUtils.readJsonData(cropCalendarData);
 
       let filteredData = data;
 
@@ -192,7 +192,7 @@ const cropDataController = {
 
   getCropData: async (req, res) => {
     try {
-      const data = readJsonData(cropCalendarData);
+      const data = cropUtils.readJsonData(cropCalendarData);
       const countryName = req.query.country;
       const cropName = req.query.crop;
       const cropData = data.filter(
@@ -212,7 +212,7 @@ const cropDataController = {
 
   getSowingData: async (req, res) => {
     try {
-      const data = readJsonData(cropCalendarData);
+      const data = cropUtils.readJsonData(cropCalendarData);
       const countryName = req.query.country;
       const cropName = req.query.crop;
       const region = req.query.region;
@@ -274,7 +274,7 @@ const cropDataController = {
 
   getHarvestingData: async (req, res) => {
     try {
-      const data = readJsonData(cropCalendarData);
+      const data = cropUtils.readJsonData(cropCalendarData);
       const countryName = req.query.country;
       const cropName = req.query.crop;
       const region = req.query.region;
@@ -351,7 +351,7 @@ const cropDataController = {
       }
 
       // Read all crop data
-      const cropData = readJsonData(cropCalendarData);
+      const cropData = cropUtils.readJsonData(cropCalendarData);
 
       // Get crops for the specified region
       const regionalCrops = cropData.filter(
@@ -450,112 +450,123 @@ const cropDataController = {
   findEndangeredCrops: async (req, res) => {
     try {
       const { temperatures, country, region, startDate } = req.body;
-      
+
       // Validate input
-      if (!temperatures || !Array.isArray(temperatures) || !country || !region || !startDate) {
+      if (
+        !temperatures ||
+        !Array.isArray(temperatures) ||
+        !country ||
+        !region ||
+        !startDate
+      ) {
         return responseUtils.handleBadRequest(
           res,
           "Please provide temperatures array, country, region and start date"
         );
       }
-  
+
       // Read all crop data
-      const cropData = readJsonData(cropCalendarData);
-  
+      const cropData = cropUtils.readJsonData(cropCalendarData);
+
       // Get crops for the specified region
       const regionalCrops = cropData.filter(
-        crop => crop["Country Name"] === country && 
-                crop["AgroEcological Zone"] === region
+        (crop) =>
+          crop["Country Name"] === country &&
+          crop["AgroEcological Zone"] === region
       );
-  
+
       // Calculate temperature metrics
-      const avgTemperature = temperatures.reduce((sum, temp) => sum + temp, 0) / temperatures.length;
+      const avgTemperature =
+        temperatures.reduce((sum, temp) => sum + temp, 0) / temperatures.length;
       const minTemperature = Math.min(...temperatures);
       const maxTemperature = Math.max(...temperatures);
-  
+
       // Parse the start date
       const currentDate = new Date(startDate);
       const currentMonth = currentDate.getMonth() + 1;
       const currentDay = currentDate.getDate();
-  
-      const endangeredCrops = regionalCrops.map(crop => {
-        // Parse temperature ranges
-        const tempRanges = cropUtils.parseTempRanges(crop.Temperature);
-        
-        // Check sowing dates
-        const earlyDate = {
-          month: parseInt(crop["Early Sowing"].Month),
-          day: parseInt(crop["Early Sowing"].Day)
-        };
-        
-        const lateDate = {
-          month: parseInt(crop["Later Sowing"].Month),
-          day: parseInt(crop["Later Sowing"].Day)
-        };
-  
-        // Calculate danger levels
-        const dangers = cropUtils.calculateDangers(
-          avgTemperature,
-          minTemperature,
-          maxTemperature,
-          tempRanges
-        );
-  
-        // Check if current date is within sowing period
-        const dateScore = cropUtils.calculateDateScore(
-          currentMonth,
-          currentDay,
-          earlyDate,
-          lateDate
-        );
-  
-        // Only include if the crop is in active growing period
-        if (dateScore > 0) {
-          return {
-            crop: crop.Crop,
-            riskLevel: cropUtils.calculateOverallRisk(dangers),
-            details: {
-              temperature: {
-                current: {
-                  avg: avgTemperature.toFixed(1),
-                  min: minTemperature,
-                  max: maxTemperature
-                },
-                ideal: {
-                  min: tempRanges.min,
-                  optimal: tempRanges.optimal,
-                  max: tempRanges.max
-                }
-              },
-              risks: dangers,
-              sowingDates: {
-                early: `${earlyDate.day}/${earlyDate.month}`,
-                late: `${lateDate.day}/${lateDate.month}`
-              },
-              recommendations: cropUtils.generateRecommendations(dangers),
-              additionalInfo: crop["Additional information"]
-            }
+
+      const endangeredCrops = regionalCrops
+        .map((crop) => {
+          // Parse temperature ranges
+          const tempRanges = cropUtils.parseTempRanges(crop.Temperature);
+
+          // Check sowing dates
+          const earlyDate = {
+            month: parseInt(crop["Early Sowing"].Month),
+            day: parseInt(crop["Early Sowing"].Day),
           };
-        }
-        return null;
-      }).filter(crop => crop !== null && crop.riskLevel > 0);
-  
+
+          const lateDate = {
+            month: parseInt(crop["Later Sowing"].Month),
+            day: parseInt(crop["Later Sowing"].Day),
+          };
+
+          // Calculate danger levels
+          const dangers = cropUtils.calculateDangers(
+            avgTemperature,
+            minTemperature,
+            maxTemperature,
+            tempRanges
+          );
+
+          // Check if current date is within sowing period
+          const dateScore = cropUtils.calculateDateScore(
+            currentMonth,
+            currentDay,
+            earlyDate,
+            lateDate
+          );
+
+          // Only include if the crop is in active growing period
+          if (dateScore > 0) {
+            return {
+              crop: crop.Crop,
+              riskLevel: cropUtils.calculateOverallRisk(dangers),
+              details: {
+                temperature: {
+                  current: {
+                    avg: avgTemperature.toFixed(1),
+                    min: minTemperature,
+                    max: maxTemperature,
+                  },
+                  ideal: {
+                    min: tempRanges.min,
+                    optimal: tempRanges.optimal,
+                    max: tempRanges.max,
+                  },
+                },
+                risks: dangers,
+                sowingDates: {
+                  early: `${earlyDate.day}/${earlyDate.month}`,
+                  late: `${lateDate.day}/${lateDate.month}`,
+                },
+                recommendations: cropUtils.generateRecommendations(dangers),
+                additionalInfo: crop["Additional information"],
+              },
+            };
+          }
+          return null;
+        })
+        .filter((crop) => crop !== null && crop.riskLevel > 0);
+
       // Sort by risk level (highest risk first)
-      const sortedEndangeredCrops = endangeredCrops.sort((a, b) => b.riskLevel - a.riskLevel);
-  
+      const sortedEndangeredCrops = endangeredCrops.sort(
+        (a, b) => b.riskLevel - a.riskLevel
+      );
+
       return responseUtils.handleSuccess(
         res,
         {
           weatherSummary: {
             average: avgTemperature.toFixed(1),
             min: minTemperature,
-            max: maxTemperature
+            max: maxTemperature,
           },
-          endangeredCrops: sortedEndangeredCrops
+          endangeredCrops: sortedEndangeredCrops,
         },
         "Endangered crops analysis completed successfully"
       );
-  
     } catch (error) {
       console.log(error);
       return responseUtils.handleFailure(res, error);
