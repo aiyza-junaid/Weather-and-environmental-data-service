@@ -1,13 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const { extremeWeatherAlertController }  = require('../controllers');
+const { getWeatherAlerts, sendWeatherAlertsEmail, updateThresholds } = require('../controllers/ExtremeWeatherAlertController');
 
-// Define routes for extreme weather alerts
-router.get('/extreme-weather-alerts', extremeWeatherAlertController.getExtremeWeatherAlerts);
-router.get('/storm-alerts', extremeWeatherAlertController.getStormAlerts);
-router.get('/flood-alerts', extremeWeatherAlertController.getFloodAlerts);
-router.get('/temperature-alerts', extremeWeatherAlertController.getTemperatureAlerts);
-router.get('/rain-alerts', extremeWeatherAlertController.getRainAlerts);
-router.post('/custom-alerts', extremeWeatherAlertController.getCustomAlert); // Custom alerts using POST
+// GET route to fetch weather alerts
+router.get('/check', getWeatherAlerts);
+
+// POST route to send weather alerts email
+router.post('/send-email', sendWeatherAlertsEmail); // Corrected POST route
+
+router.patch('/update-thresholds', updateThresholds);
+
+
+
 
 module.exports = router;

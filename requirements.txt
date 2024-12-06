@@ -6,3 +6,5 @@ cors
 dotenv
 nodemon
 cookie-parser # for parsing cookies if we need to
+nodemailer
+node-cron

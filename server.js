@@ -1,6 +1,13 @@
 const express = require("express");
 const dotenv = require("dotenv");
+const mongoose= require("mongoose");
+
+
+const FarmerProfile = require('./models/FarmerProfile'); // Adjust import path as needed
+
 const cors = require("cors");
+const cronJob = require('./controllers/scheduler');  // Import the cron job file to ensure it's executed
+
 // const cookieParser = require("cookie-parser");
 dotenv.config();
 const {
@@ -30,7 +37,35 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Dummy Microservice");
 });
 
+
+
+// MongoDB Connection
+const connectDB = async () => {
+  try {
+    const mongoURI = "mongodb+srv://i211209:Xg5lmHfaQt0GN7tW@agrilink.8s85i.mongodb.net/Agrilink";
+    await mongoose.connect(mongoURI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log("Connected to MongoDB");
+
+  
+
+
+  } catch (error) {
+    console.error("MongoDB connection error:", error.message);
+    process.exit(1); // Exit process with failure
+  }
+};
+
+// Start the Server
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+
+const startServer = async () => {
+  await connectDB(); // Ensure MongoDB is connected before starting the server
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
+};
+
+startServer();
