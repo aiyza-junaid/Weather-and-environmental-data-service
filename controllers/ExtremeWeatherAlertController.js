@@ -2,6 +2,8 @@ const { User, Role, Permission } = require('../models/User'); // Adjust the path
 const FarmerProfile = require('../models/FarmerProfile'); // Adjust import path as needed
 
 const forecastWeatherService = require('../services/forecastWeatherService'); // Import the forecast weather service
+
+const realTimeWeatherService= require('../services/realTimeWeatherService');
 const { generateWeatherAlerts, sendAlertEmail } = require('../services/extremeWeatherAlertService'); // Import the generateWeatherAlerts and sendAlertEmail functions
 const { ObjectId } = require('mongodb'); // Import ObjectId from MongoDB
 
@@ -29,7 +31,7 @@ const getWeatherAlerts = async (req, res) => {
     const thresholds = farmerProfile.thresholds; // Thresholds object
     const location = farmerProfile.farmDetails?.farmLocation; // Farm location object
 
-    const weatherData = await forecastWeatherService.getLocationBasedForecast(location, 3); // 3-day forecast
+    const weatherData = await forecastWeatherService.getCurrentWeather(location, 3); // 3-day forecast
     const alerts = generateWeatherAlerts(weatherData, location, thresholds); // Use thresholds for generating alerts
 
     if (alerts.length > 0) {
@@ -75,7 +77,70 @@ const sendWeatherAlertsEmail = async (req, res) => {
 
     const location = farmerProfile.farmDetails?.farmLocation; // Farm location object
 
-    const weatherData = await forecastWeatherService.getLocationBasedForecast(location, 3); // 3-day forecast
+   //const weatherData = await realTimeWeatherService.getCurrentWeather(location.latitude, location.longitude); 
+  //console.log(weatherData)
+
+  const weatherData = {
+    location: {
+      name: "Lahore",
+      region: "Punjab",
+      country: "Pakistan",
+      lat: 31.5497,
+      lon: 74.3436,
+      tz_id: "Asia/Karachi",
+      localtime_epoch: 1733458263,
+      localtime: "2024-12-06 09:11",
+    },
+    current: {
+      last_updated_epoch: 1733457600,
+      last_updated: "2024-12-06 09:00",
+      temp_c: 100,
+      temp_f: 56.1,
+      is_day: 1,
+      condition: {
+        text: "Clear", // Placeholder for additional condition details, e.g., "Sunny"
+        icon: "", // Icon URL can be added if needed
+        code: 1000, // Example condition code
+      },
+      wind_mph: 3.6,
+      wind_kph: 5.8,
+      wind_degree: 332,
+      wind_dir: "NNW",
+      pressure_mb: 1016,
+      pressure_in: 30,
+      precip_mm: 0,
+      precip_in: 0,
+      humidity: 62,
+      cloud: 0,
+      feelslike_c: 13.4,
+      feelslike_f: 56.2,
+      windchill_c: 16.9,
+      windchill_f: 62.3,
+      heatindex_c: 16.9,
+      heatindex_f: 62.3,
+      dewpoint_c: -6.7,
+      dewpoint_f: 19.9,
+      vis_km: 1.8,
+      vis_miles: 1,
+      uv: 1,
+      gust_mph: 4.8,
+      gust_kph: 7.7,
+    },
+  };
+  
+
+    const dummyWeatherData = {
+      current: {
+        temp_c: 100, // Current temperature in Celsius
+        precip_mm: 50, // Current precipitation in mm
+        humidity: 85, // Current humidity percentage
+        wind_kph: 25, // Current wind speed in km/h
+        uv: 8, // UV index
+      },
+      drought_days: 15, // Number of consecutive days without rain
+    };
+    
+    
     const alerts = generateWeatherAlerts(weatherData, location, thresholds); // Use thresholds for generating alerts
 
     if (alerts.length > 0) {

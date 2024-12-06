@@ -42,7 +42,7 @@ app.get("/", (req, res) => {
 // MongoDB Connection
 const connectDB = async () => {
   try {
-    const mongoURI = "mongodb://localhost:27017/dumdum";
+    const mongoURI = "mongodb+srv://i211209:Xg5lmHfaQt0GN7tW@agrilink.8s85i.mongodb.net/Agrilink";
     await mongoose.connect(mongoURI, {
       useNewUrlParser: true,
       useUnifiedTopology: true,

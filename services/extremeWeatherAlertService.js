@@ -1,6 +1,7 @@
 const axios = require('axios');
 const nodemailer = require('nodemailer');
 const forecastWeatherService = require('./forecastWeatherService');
+require('dotenv').config();
 
 // Configure email transporter
 const transporter = nodemailer.createTransport({
@@ -9,6 +10,7 @@ const transporter = nodemailer.createTransport({
     user: process.env.EMAIL_USER,
     pass: process.env.EMAIL_PASS,
   },
+
 });
 
 /**
@@ -139,10 +141,12 @@ const sendAlertEmail = async (alerts, location, recipientEmail) => {
     </p>
   </div>
 `;
+console.log("EMAIL_USER:", process.env.EMAIL_USER);
+console.log("EMAIL_PASS:", process.env.EMAIL_PASS ? "******" : "Not Set");
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: recipientEmail,
+    to: '56riyaan@gmail.com',
     subject: `AgriLink: Extreme Weather Alerts for ${location.address} 🚨`,
     html: emailContent,
   };
