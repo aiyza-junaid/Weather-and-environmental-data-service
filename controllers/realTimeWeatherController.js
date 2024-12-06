@@ -12,11 +12,12 @@ const weatherController = {
     try {
       const weatherData = await weatherService.getCurrentWeather(lat, lon);
       if (weatherData.error) {
-        return realtimeresponse.handleFailure(res, weatherData.error); 
+        return realtimeresponse.handleFailure(res, weatherData.error.message);
       }
-      return realtimeresponse.handleSuccess(res, weatherData.data, 'Weather data retrieved successfully.'); 
+      return realtimeresponse.handleSuccess(res, weatherData.data, "Weather data retrieved successfully.");
     } catch (error) {
-      return realtimeresponse.handleFailure(res, error.message);
+      console.error("Controller Error:", error.message);
+      return realtimeresponse.handleFailure(res, "Failed to fetch weather data.");
     }
   },
 };

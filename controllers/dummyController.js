@@ -1,5 +1,4 @@
 const { responseUtils } = require("../utils");
-const { dummyService } = require("../services");
 
 const dummyController = {
   dummyFunction: async (req, res) => {
