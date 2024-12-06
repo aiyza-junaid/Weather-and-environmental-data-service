@@ -117,7 +117,7 @@ const generateWeatherAlerts = (weatherData, location, thresholds) => {
 const sendAlertEmail = async (alerts, location, recipientEmail) => {
   const emailContent = `
   <div style="font-family: Arial, sans-serif; color: #333; line-height: 1.6;">
-    <h2 style="text-align: center; color: #0066cc;">Weather Alerts for ${location}</h2>
+    <h2 style="text-align: center; color: #0066cc;">Weather Alerts for ${location.address}</h2>
     <p style="text-align: center; font-size: 14px; color: #555;">
       Stay informed with the latest weather updates for your location.
     </p>
@@ -127,7 +127,6 @@ const sendAlertEmail = async (alerts, location, recipientEmail) => {
         (alert) => `
           <div style="border: 1px solid #ddd; border-radius: 5px; padding: 15px; margin-bottom: 20px;">
             <h3 style="color: #e74c3c;">⚠️ ${alert.alertType.toUpperCase()}</h3>
-            <p><strong>Alert ID:</strong> ${alert.alertId}</p>
             <p><strong>Condition Type:</strong> ${alert.alertCondition.conditionType}</p>
             <p><strong>Description:</strong> ${alert.alertCondition.conditionDescription}</p>
           </div>
@@ -144,7 +143,7 @@ const sendAlertEmail = async (alerts, location, recipientEmail) => {
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: recipientEmail,
-    subject: `AgriLink: Extreme Weather Alerts for ${location} 🚨`,
+    subject: `AgriLink: Extreme Weather Alerts for ${location.address} 🚨`,
     html: emailContent,
   };
 
@@ -157,17 +156,17 @@ const sendAlertEmail = async (alerts, location, recipientEmail) => {
   }
 };
 
-const updateUserThresholds = async (userID, newThresholds) => {
-  const user = await User.findById(userID);
-  if (!user) {
-    throw new Error('User not found');
+const updateUserThresholds = async (farmerProfileID, newThresholds) => {
+  const farmerProfile = await FarmerProfile.findById(farmerProfileID);
+  if (!farmerProfile) {
+    throw new Error('FarmerProfile not found');
   }
 
   // Update and save thresholds
-  user.thresholds = newThresholds;
-  await user.save();
+  farmerProfile.thresholds = newThresholds;
+  await farmerProfile.save();
 
-  return user.thresholds; // Return updated thresholds
+  return farmerProfile.thresholds; // Return updated thresholds
 };
 
 module.exports = { generateWeatherAlerts, sendAlertEmail, updateUserThresholds };
