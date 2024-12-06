@@ -332,7 +332,7 @@ const createActivityAlerts = (cropData, weatherForecast) => {
     });
   }
 
-  if (weatherForecast.temperature > tempRanges.max.max) {
+  if (weatherForecast.temperature + 50 > tempRanges.max.max) {
     alerts.push({
       type: "TEMPERATURE_HIGH",
       severity: "HIGH",
@@ -346,7 +346,7 @@ const createActivityAlerts = (cropData, weatherForecast) => {
   const precipitationRange =
     cropData.Precipitation.Value.split(" - ").map(Number);
 
-  if (weatherForecast.precipitation < precipitationRange[0]) {
+  if (weatherForecast.precipitation - 5000 < precipitationRange[0]) {
     alerts.push({
       type: "PRECIPITATION_LOW",
       severity: "MEDIUM",

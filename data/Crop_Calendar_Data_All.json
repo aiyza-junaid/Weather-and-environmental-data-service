@@ -1,0 +1,5000 @@
+[
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Upland Balochistan",
+    "Additional information": "Reccommended variety is:Sariab 92",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "110",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "160 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Highland Balochistan is located in the north central part of the province. It has a continental semi-arid climate with hot summers and cold winters. The most limiting factor for crop production in rain-fed areas of the highlands is the low rainfall and its skewed distribution both in terms of time and space. Annual rainfall ranges from 175 to 200 mm in the southern districts of Khuzdar, Mastung and Kalat",
+    "AgroEcological Zone Practices": "Crop production in non-irrigated areas is totally dependent on rainfall while the main source of irrigation water in the valley floor is tube-wells, karezes and mountains springs. Fruit orchards and vegetables are the major cash crops growing of irrigated lands. Vegetables not only provide protein, vitamins, carbohydrates and roughages to human diet as a nutrition source but are also important source of farm income.",
+    "AgroEcological Zone Units": "Upper rainfed balochistan include Quetta, Khuzdar, Mastung and Kalat etc.",
+    "Comments En": "Rainfed: To better utilize the Monsoon rains use deep cultivator once to store the",
+    "Comments ES": "Secano: Para utilizar mejor las lluvias del monzón utilizan cultivador profunda una vez para almacenar la",
+    "Comments FR": "Pluvial: Pour mieux utiliser les pluies de mousson utilisent cultivateur en profondeur une fois pour stocker les",
+    "Comments ZH": "雨养：要更好地利用季风降雨使用深中耕一次，以存储",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Plains of Balochistan",
+    "Additional information": "Reccommended varieties are:Zarghoon 79, Zarlashta 99, Zameendar 80, Raskoh 06",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "120",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150 - 170",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "These are the areas where there is proper irrigation systems.",
+    "AgroEcological Zone Practices": "In irrigated areas of the province, trees are grown simultaneously with agricultural crops and contribute substantially towards household income through sale of timber and firewood. In addition to these major products, forest flora are traditionally used for number of other minor products including agricultural implements, medicines, and different kinds of fruits and nuts.",
+    "AgroEcological Zone Units": "Thirty-five (35) easily accessible fields/units are working in the province where the staff headed by an Assistant Agricultural Engineer is permanently stationed to serve the farmers by providing services of bulldozers",
+    "Comments En": "After every rain apply simple cultivation so that the weeds could be removed and moisture stored. Sowing should be through drill. The ratio of nitrogen and phosphorus fertilizer should be from 1:1 to 1:1.5",
+    "Comments ES": "Después de cada lluvia aplicar cultivo simple de modo que las malas hierbas pueden ser retirados y humedad almacenada. La siembra debe ser a través del taladro. La proporción de nitrógeno y fertilizante de fósforo debe ser de 1: 1 a 1: 1,5",
+    "Comments FR": "Après chaque pluie appliquer la culture simple afin que les mauvaises herbes peuvent être enlevées et l&apos;humidité stockées. Semer doit se faire par forage. Le rapport de l&apos;azote et de l&apos;engrais de phosphore doit être entre 1: 1 à 1: 1,5",
+    "Comments ZH": "每次雨后将简单的培养，使杂草可以被删除并保存水分。播种应通过演练。氮和磷的肥料的比例应该是从1：1至1：1.5",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "Reccommended varieties are:Mehran 89, Imdad 05, TD 01, Bhitai 04, SKD 01, Tandojam 83,Momal 2002, Khirman 06, Marvi 2002,Sarsabz 86",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "20",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "120",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "160",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "In irrigated areas the whole amount of phosphorus and half amount of nitrogen fertilizer should be given at the time of sowing and other half nitrogen should be given at the time of first or second irrigation.",
+    "Comments ES": "En las zonas de regadío toda la cantidad de fósforo y media cantidad de fertilizante de nitrógeno se debe dar en el momento de la siembra y la otra mitad de nitrógeno deben administrarse en el momento de la primera o segunda irrigación.",
+    "Comments FR": "Dans les zones irriguées la quantité totale de phosphore et de la quantité de la moitié des engrais azotés devrait être donné au moment de l&apos;ensemencement et d&apos;autres azote moitié devraient être données au moment de la première ou la deuxième irrigation.",
+    "Comments ZH": "在灌溉区的磷和氮的肥料的一半量的总量应在播种和另一半氮应在第一或第二灌溉的时间给出的时间进行说明。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Reccommended varieties are:Mehran 89, Imdad 05, TD 01, Bhitai 04, SKD 01, Tandojam 83,Momal 2002, Khirman 06, Marvi 2002,Sarsabz 86",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "20",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "120",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "160",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "In irrigated areas the whole amount of phosphorus and half amount of nitrogen fertilizer should be given at the time of sowing and other half nitrogen should be given at the time of first or second irrigation.",
+    "Comments ES": "En las zonas de regadío toda la cantidad de fósforo y media cantidad de fertilizante de nitrógeno se debe dar en el momento de la siembra y la otra mitad de nitrógeno deben administrarse en el momento de la primera o segunda irrigación.",
+    "Comments FR": "Dans les zones irriguées la quantité totale de phosphore et de la quantité de la moitié des engrais azotés devrait être donné au moment de l&apos;ensemencement et d&apos;autres azote moitié devraient être données au moment de la première ou la deuxième irrigation.",
+    "Comments ZH": "在灌溉区的磷和氮的肥料的一半量的总量应在播种和另一半氮应在第一或第二灌溉的时间给出的时间进行说明。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Southern irrigated Plain",
+    "Additional information": "Reccommended varieties are:Pasban 90, Ufaq 2000, Auqab 2000, Bhakar 2001, Panjnad-1, Inqalab 91, Manthar 03,AS-2002, Farid 06",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "120",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "140 - 160",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "3"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The lower indus plain covers the area of southern irrigated plain. Soil is fertile and agriculture is strong.",
+    "AgroEcological Zone Practices": "Southern Irrigated Plain, the Lower Indus Plain. The climate is arid and subtropical. The mean monthly summer rainfall is 18 mm in the north and 45 to 55 mm in the south. The soils are silty and sandy loam but the upper areas of the flood plain are calcareous loamy and clayey. Cotton, wheat and sugar cane are grown on the left bank of the Indus and rice, wheat and gram on the right bank.",
+    "AgroEcological Zone Units": "Rahimyarkhan, Bahawalpur, Multan. Also some parts of sindh.",
+    "Comments En": "In rainfed areas whole amount of phosphorus and nitrogen should be given at the time of sowing.",
+    "Comments ES": "En las zonas de secano cantidad entera de fósforo y nitrógeno se debe dar en el momento de la siembra.",
+    "Comments FR": "Dans les zones non irriguées quantité totale de phosphore et de l&apos;azote doit être administré au moment du semis.",
+    "Comments ZH": "雨育地区磷和氮的总量应在播种的时候进行说明。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Reccommended varieties are:Pasban 90, Ufaq 2000, Sehar 06,Inqalab 91, Auqab 2000, Bhakar 2001, AS-2002, Shafaq 06",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "120",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "140 - 160",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "3"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Irrigation applied. Seed applied through broadcasting.",
+    "Comments ES": "Riego aplicada. Seed aplica a través de la radiodifusión.",
+    "Comments FR": "appliquée irrigation. Graine appliquée par la radiodiffusion.",
+    "Comments ZH": "灌溉应用。种子通过广播应用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Irrigated areas: Reccommended varieties are: Ufaq 2000, Auqab 2000, AS-2002, Sehar 06",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "120",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "160 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Irrigation applied. Seed applied through broadcasting.",
+    "Comments ES": "Riego aplicada. Seed aplica a través de la radiodifusión.",
+    "Comments FR": "appliquée irrigation. Graine appliquée par la radiodiffusion.",
+    "Comments ZH": "灌溉应用。种子通过广播应用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Rainfed Areas: Reccommended varieties are: Chakwal 97, Wafaq 2001, GA-2002",
+    "Early Sowing": {
+      "Day": "20",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "100",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Rainfed. During monsoon rains conservethe moisture. Seed applied through broadcasting.",
+    "Comments ES": "Secano. Durante monzón lluvias conservethe humedad. Seed aplica a través de la radiodifusión.",
+    "Comments FR": "Pluvial. Pendant la mousson pluies conservethe l&apos;humidité. Graine appliquée par la radiodiffusion.",
+    "Comments ZH": "雨养。在雨季conservethe水分。种子通过广播应用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "NWFP",
+    "Additional information": "Irrigated areas: Reccommended varieties are: Marwat J-1, Naseer 2000, Fakhar sarhad Saleem 2000 Ghaznavi 98, Khyber 87",
+    "Early Sowing": {
+      "Day": "5",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "120",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "130 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "1",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Irrigation applied. Seed applied throughBroadcasting.",
+    "Comments ES": "Riego aplicada. Semilla aplica throughBroadcasting.",
+    "Comments FR": "appliquée irrigation. Graine appliquée throughBroadcasting.",
+    "Comments ZH": "灌溉应用。种子应用throughBroadcasting。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Wheat, bread",
+    "AgroEcological Zone": "NWFP",
+    "Additional information": "Rainfed areas: Reccommended varieties are: Marwat J-1, Haider 2002, Tatar 981, Daman 98, Zam 2004, Pirsabak 2005, Bakhtawar 92, Saleem 2000, Khyber 87",
+    "Early Sowing": {
+      "Day": "20",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "110",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "160 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "1",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "3 - 4",
+      "Optimal": "20 - 25",
+      "Max": "30 - 32"
+    },
+    "Precipitation": {
+      "Value": "450 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Rice",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Reccommended Varieties are:Basmati (370,385,2000),Super, Rachna, Shaheen, IRRI-6,NIAB,IR-9, KS-282, KS-133 etc.",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "12",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "25",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "7",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "23 - 30",
+      "Max": "35 - 40"
+    },
+    "Precipitation": {
+      "Value": "1000 - 2000",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Fertilizer use for Basmati rice is: Nitrogen 55 Kg/acre, Phosphorus 30 Kg/acre and pottash 25 kg/acre",
+    "Comments ES": "El uso de fertilizantes para el arroz Basmati es: Nitrógeno 55 Kg / acre, fósforo 30 Kg / acre y pottash 25 kg / acre",
+    "Comments FR": "L&apos;utilisation des engrais pour le riz Basmati est: azote 55 kg / acre, phosphore 30 kg / acre et pottash 25 kg / acre",
+    "Comments ZH": "化肥的使用为香米是：氮55公斤/英亩，磷30公斤/英亩和pottash 25公斤/英亩",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Rice",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "Reccommended Varieties are:DR( 82,83,92)",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "17",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "7",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "23 - 30",
+      "Max": "35 - 40"
+    },
+    "Precipitation": {
+      "Value": "1000 - 2000",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "Fertilizer use for IRRI rice is: Nitrogen 70 Kg/acre, Phosphorus 40 Kg/acre and pottash 25 kg/acre",
+    "Comments ES": "El uso de fertilizantes para el arroz IRRI es: Nitrógeno 70 Kg / acre, fósforo 40 Kg / acre y pottash 25 kg / acre",
+    "Comments FR": "l&apos;utilisation d&apos;engrais pour le riz IRRI est: azote 70 kg / acre, phosphore 40 kg / acre et pottash 25 kg / acre",
+    "Comments ZH": "化肥的使用用于稻IRRI是：氮70公斤/英亩，磷40公斤/英亩和pottash 25公斤/英亩",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Rice",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Reccommended varieties are:Khushboo-95, Shua-92, Shadab",
+    "Early Sowing": {
+      "Day": "25",
+      "Month": "4"
+    },
+    "Later Sowing": {
+      "Day": "10",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "17",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "7",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "23 - 30",
+      "Max": "35 - 40"
+    },
+    "Precipitation": {
+      "Value": "1000 - 2000",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "Fertilizer use for IRRI rice is: Nitrogen 70 Kg/acre, Phosphorus 40 Kg/acre and pottash 25 kg/acre",
+    "Comments ES": "El uso de fertilizantes para el arroz IRRI es: Nitrógeno 70 Kg / acre, fósforo 40 Kg / acre y pottash 25 kg / acre",
+    "Comments FR": "l&apos;utilisation d&apos;engrais pour le riz IRRI est: azote 70 kg / acre, phosphore 40 kg / acre et pottash 25 kg / acre",
+    "Comments ZH": "化肥的使用用于稻IRRI是：氮70公斤/英亩，磷40公斤/英亩和pottash 25公斤/英亩",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Rice",
+    "AgroEcological Zone": "Irrigated areas of NWFP (Plains of NWFP)",
+    "Additional information": "Reccommended Variety is IRRI-6",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "17",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "23 - 30",
+      "Max": "35 - 40"
+    },
+    "Precipitation": {
+      "Value": "1000 - 2000",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Soils are fertile and agriculture is strong in this area.",
+    "AgroEcological Zone Practices": "Mix cropping. Wheat,maze, sugercane, vegetables",
+    "AgroEcological Zone Units": "Peshawar, Charsadda, Mardan",
+    "Comments En": "Fertilizer use for IRRI rice is: Nitrogen 70 Kg/acre, Phosphorus 40 Kg/acre and pottash 25 kg/acre",
+    "Comments ES": "El uso de fertilizantes para el arroz IRRI es: Nitrógeno 70 Kg / acre, fósforo 40 Kg / acre y pottash 25 kg / acre",
+    "Comments FR": "l&apos;utilisation d&apos;engrais pour le riz IRRI est: azote 70 kg / acre, phosphore 40 kg / acre et pottash 25 kg / acre",
+    "Comments ZH": "化肥的使用用于稻IRRI是：氮70公斤/英亩，磷40公斤/英亩和pottash 25公斤/英亩",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Corn, sweet",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Mix Cropping: Reccommended Maze Hybrids are: Grast 8464,R-2315, Ghauri, DKE-6525, 34-N-43,3335, G-8464, NK-6651",
+    "Early Sowing": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "Later Sowing": {
+      "Day": "29",
+      "Month": "2"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "35 - 40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150 - 170",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10 - 12",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "At the time of sowing one bag of each DAP, Pottash and Urea should be applied.Sowing done through drills in rows.",
+    "Comments ES": "En el momento de la siembra una bolsa de cada DAP, Pottash y urea deben ser applied.Sowing realiza a través de taladros en filas.",
+    "Comments FR": "Au moment de l&apos;ensemencement un sac de chaque DAP, Pottash et Urée doivent être applied.Sowing fait grâce à des exercices en lignes.",
+    "Comments ZH": "在每个DAP的播种一包的时间，Pottash和尿素应applied.Sowing通过演练行完成。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Corn, sweet",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Second Season: Reccommended varieties: Ageti 2002 Zard, Sultan (Zard), Sahiwal 2002, Golden(Zard)",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "35 - 40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10 - 12",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Sowing done through drills in rows.",
+    "Comments ES": "Siembra hecha a través de ejercicios en filas.",
+    "Comments FR": "Les semis fait à travers des exercices en lignes.",
+    "Comments ZH": "通过演练行播种完成。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Corn, sweet",
+    "AgroEcological Zone": "Sindh",
+    "Additional information": "1st season: Reccommended hybrids:Babar, NK-8441",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "35 - 40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Temperature": {
+      "Min": "10 - 12",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Sowing done through drills in rows.",
+    "Comments ES": "Siembra hecha a través de ejercicios en filas.",
+    "Comments FR": "Les semis fait à travers des exercices en lignes.",
+    "Comments ZH": "通过演练行播种完成。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Corn, sweet",
+    "AgroEcological Zone": "Sindh",
+    "Additional information": "Reccommended varieties: Golden, Sahiwal 2002, Sultan (Zard), Sarha(Zard), R-2303",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "8"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "35 - 40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Temperature": {
+      "Min": "10 - 12",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Sowing done through drills in rows.",
+    "Comments ES": "Siembra hecha a través de ejercicios en filas.",
+    "Comments FR": "Les semis fait à travers des exercices en lignes.",
+    "Comments ZH": "通过演练行播种完成。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Corn, sweet",
+    "AgroEcological Zone": "Irrigated areas of NWFP",
+    "Additional information": "1st season: Reccommended hybrids are: R-2313, Opener.Reccommended varieties are:Pahari, Sawan-Azam (White), Gohar(White), Kisan (white), Sarhad(white), Jalal (white), Islamabad(white), R 2207, K 3304",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "35 - 40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Temperature": {
+      "Min": "10 - 12",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Soils are fertile and agriculture is strong in this area.",
+    "AgroEcological Zone Practices": "Mix cropping. Wheat,maze, sugercane, vegetables",
+    "AgroEcological Zone Units": "Peshawar, Charsadda, Mardan",
+    "Comments En": "Maze should be sowed in lines as it conserves water and gives good yield. Distance between the rows should be 2.5 ft. while the distance between the plants should be 8 inches.",
+    "Comments ES": "Maze debe sembró en líneas ya que conserva el agua y da un buen rendimiento. Distancia entre las hileras debe ser de 2,5 ft., Mientras que la distancia entre las plantas debe ser 8 pulgadas.",
+    "Comments FR": "Maze devrait être semée en lignes comme il conserve l&apos;eau et donne un bon rendement. Distance entre les lignes doit être 2,5 pi. Alors que la distance entre les plantes doit être de 8 pouces.",
+    "Comments ZH": "迷宫应行作为了节水，并给出高收率地播种。各行之间的距离应该是2.5英尺而植物之间的距离应为8英寸。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Corn, sweet",
+    "AgroEcological Zone": "Plains of Balochistan",
+    "Additional information": "1st season: Reccommended variety is: 31-R-88",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "35 - 40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Temperature": {
+      "Min": "10 - 12",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "These are the areas where there is proper irrigation systems.",
+    "AgroEcological Zone Practices": "In irrigated areas of the province, trees are grown simultaneously with agricultural crops and contribute substantially towards household income through sale of timber and firewood. In addition to these major products, forest flora are traditionally used for number of other minor products including agricultural implements, medicines, and different kinds of fruits and nuts.",
+    "AgroEcological Zone Units": "Thirty-five (35) easily accessible fields/units are working in the province where the staff headed by an Assistant Agricultural Engineer is permanently stationed to serve the farmers by providing services of bulldozers",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Corn, sweet",
+    "AgroEcological Zone": "Azad Jammu and kashmir",
+    "Additional information": "1st season: Reccommended varieties are: Phari (white), Sawan-3(white), Gohar/Azam, Kashmir Gold,Kisan/Islamabad Gold, Sarhad(white), R 2207, R 2303",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "35 - 40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Temperature": {
+      "Min": "10 - 12",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sorghum",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Reccommended varieties are:PARC-SS-1, PARC-SS-2",
+    "Early Sowing": {
+      "Day": "21",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "21",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "21",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10 - 15",
+      "Optimal": "27 - 32 ",
+      "Max": "38 - 40"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "At the time of sowing of Sorghum one bag of Urea and one bag of DAP should be used per acre, and one bag of urea should be used when the crop is 1.5 to 2.0 feet tall.",
+    "Comments ES": "En el momento de la siembra de sorgo una bolsa de urea y una bolsa de DAP se debe utilizar por acre, y una bolsa de urea se debe utilizar cuando el cultivo es de 1,5 a 2,0 pies de altura.",
+    "Comments FR": "Au moment du semis de Sorgho un sac de Urée et un sac de DAP doit être utilisé par acre, et un sac d&apos;urée doit être utilisé lorsque la culture est de 1,5 à 2,0 pieds de haut.",
+    "Comments ZH": "在尿素的高粱一个袋和DAP的一个袋的播种时间应每英亩使用，并且应使用尿素的一个包时，所述作物是1.5至2.0英尺高。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sorghum",
+    "AgroEcological Zone": "Rainfed areas of NWFP",
+    "Additional information": "In Dera Ismail Khan the reccommended variety is DS-97",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "8"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "21",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10 - 15",
+      "Optimal": "27 - 32 ",
+      "Max": "38 - 40"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "South of NWFP. Agriculture mostly depends on rains.",
+    "AgroEcological Zone Practices": "Wheat, vegetables, Potato are major crops. 60 % of NWFP falls under rainfed zone.",
+    "AgroEcological Zone Units": "Dera Ismail Khan.",
+    "Comments En": "The distance between the rows should be 60 cm while the distance between the plants should be 15 cm.",
+    "Comments ES": "La distancia entre las filas debe ser de 60 cm mientras que la distancia entre las plantas debe ser de 15 cm.",
+    "Comments FR": "La distance entre les lignes doit être de 60 cm tandis que la distance entre les plantes doit être de 15 cm.",
+    "Comments ZH": "行之间的距离应为60厘米而植物之间的距离应为15公分。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sorghum",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "In Irrigated areas Reccommended variety is: YS-S 98",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "8"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "21",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10 - 15",
+      "Optimal": "27 - 32 ",
+      "Max": "38 - 40"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "The distance between the rows should be 60 cm while the distance between the plants should be 15 cm.",
+    "Comments ES": "La distancia entre las filas debe ser de 60 cm mientras que la distancia entre las plantas debe ser de 15 cm.",
+    "Comments FR": "La distance entre les lignes doit être de 60 cm tandis que la distance entre les plantes doit être de 15 cm.",
+    "Comments ZH": "行之间的距离应为60厘米而植物之间的距离应为15公分。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Bean",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Reccommended variety: PARC MS-1",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "15", 
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "12 - 14",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "20 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "300 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Sowing the millet crop in line gives more yield. The distance between the lines should be 60 cm while the distance between the crop plants should be 15 cm for high yield.",
+    "Comments ES": "La siembra del cultivo mijo en línea da más rendimiento. La distancia entre las líneas debe ser de 60 cm mientras que la distancia entre las plantas de cultivo debe ser de 15 cm de alto rendimiento.",
+    "Comments FR": "Semer la récolte de mil en ligne donne plus de rendement. La distance entre les lignes doit être de 60 cm tandis que la distance entre les plantes cultivées devrait être de 15 cm pour un rendement élevé.",
+    "Comments ZH": "在播种行小米作物提供了更多的产量。线之间的距离应该是60厘米而对作物植物之间的距离应为15厘米高的产率。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Bean",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Reccommended varieties are:Y-84 and PARC MS-1",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "15", 
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "12 - 14",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "20 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "300 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "In rainfed areas during the preperation of field half bag of urea and one bag of DAP per acre should be applied. While half bag of urea should be applied when the crop is 1.5 to 2.0 foot tall. In irrigated areas one bag urea and one bag DAP should be appied at the time of sowing while one bag of urea should be applied when crop gets 50 cm tall.",
+    "Comments ES": "En las zonas de secano durante la preparacion de campo media bolsa de urea y una bolsa de DAP por acre debe aplicarse. Mientras que la mitad bolsa de urea se debe aplicar cuando el cultivo es de 1,5 a 2,0 pies de altura. En las zonas de regadío uno urea bolsa y una DAP bolsa debe ser appied en el momento de la siembra, mientras que una bolsa de urea se debe aplicar cuando el cultivo se pone 50 cm de altura.",
+    "Comments FR": "Dans les zones non irriguées au cours de la preperation d&apos;une demi-champ sac d&apos;urée et d&apos;un sac de DAP par acre doit être appliqué. Alors que la moitié de l&apos;urée sac doit être appliqué lorsque la culture est de 1,5 à 2,0 pieds de haut. Dans les zones irriguées d&apos;une urée sac et un sac DAP doivent être appied au moment du semis en un sac d&apos;urée doit être appliqué lorsque la culture obtient 50 cm de hauteur.",
+    "Comments ZH": "在尿素领域的半袋和每亩DAP的一个袋子的水面浮油在旱作地区应适用。而尿素的半袋应当作物为1.5至2.0英尺高的施加。在灌区一吨尿素和一个袋子，DAP应在播种的时候appied而当农作物获得了50厘米高应适用尿素的一个袋子。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Bean",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Reccommended varieties are:Y-84 and PARC MS-1",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "15", 
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "12 - 14",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "20 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "300 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "In rainfed areas during the preperation of field half bag of urea and one bag of DAP per acre should be applied. While half bag of urea should be applied when the crop is 1.5 to 2.0 foot tall. In irrigated areas one bag urea and one bag DAP should be appied at the time of sowing while one bag of urea should be applied when crop gets 50 cm tall.",
+    "Comments ES": "En las zonas de secano durante la preparacion de campo media bolsa de urea y una bolsa de DAP por acre debe aplicarse. Mientras que la mitad bolsa de urea se debe aplicar cuando el cultivo es de 1,5 a 2,0 pies de altura. En las zonas de regadío uno urea bolsa y una DAP bolsa debe ser appied en el momento de la siembra, mientras que una bolsa de urea se debe aplicar cuando el cultivo se pone 50 cm de altura.",
+    "Comments FR": "Dans les zones non irriguées au cours de la preperation d&apos;une demi-champ sac d&apos;urée et d&apos;un sac de DAP par acre doit être appliqué. Alors que la moitié de l&apos;urée sac doit être appliqué lorsque la culture est de 1,5 à 2,0 pieds de haut. Dans les zones irriguées d&apos;une urée sac et un sac DAP doivent être appied au moment du semis en un sac d&apos;urée doit être appliqué lorsque la culture obtient 50 cm de hauteur.",
+    "Comments ZH": "在尿素领域的半袋和每亩DAP的一个袋子的水面浮油在旱作地区应适用。而尿素的半袋应当作物为1.5至2.0英尺高的施加。在灌区一吨尿素和一个袋子，DAP应在播种的时候appied而当农作物获得了50厘米高应适用尿素的一个袋子。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Bean",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "In Tharparkar, Sanghar and Hyderabad reccommended variety is C 42",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "15", 
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "12 - 14",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "20 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "300 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Oats",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Mostly in Irrigated areas.Reccommended varieties are:PD2-LV 65 Scott and S-2000",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "85 - 90",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "4 - 5",
+      "Optimal": "15 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "Before sowing oat, one bag of DAP and one bag of urea mixed together should be applied per acre. In irrigated areas one bag of DAP and half bag of urea should be given at the time of sowing while half bag of urea should be given at the time of first or second irrigation.",
+    "Comments ES": "Antes de avena siembra, una bolsa de DAP y una bolsa de urea mezclados se deben aplicar por acre. En las zonas de regadío una bolsa de DAP y media bolsa de urea debe darse en el momento de la siembra mientras que la mitad bolsa de urea debe darse en el momento de primera o segunda irrigación.",
+    "Comments FR": "Avant d&apos;avoine de semis, un sac de DAP et un sac d&apos;urée mélangés doivent être appliquées par acre. Dans les zones irriguées un sac de DAP et le sac moitié de l&apos;urée doit être administré au moment du semis tandis que la moitié de l&apos;urée sac doit être administré au moment de la première ou de la seconde irrigation.",
+    "Comments ZH": "播种燕麦之前，DAP的一个袋和尿素混合在一起的一个袋应每英亩施加。在灌溉地区磷酸二铵和尿素的半袋的一个袋应在播种的时候给予而尿素的半袋应该在第一或第二冲洗的时间给出。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Oats",
+    "AgroEcological Zone": "NWFP",
+    "Additional information": "Reccommended varieties are:PD2-LV 65 and S-2000",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "85 - 90",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "4 - 5",
+      "Optimal": "15 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Oats",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Mostly irrigated. Reccommended varieties are PD2-LV 65 Scott and S-2000",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "85 - 90",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "4 - 5",
+      "Optimal": "15 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Oats",
+    "AgroEcological Zone": "Plains of Balochistan",
+    "Additional information": "Reccommended varieties are:PD2-LV 65 and S-2000",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "85 - 90",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "4 - 5",
+      "Optimal": "15 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "These are the areas where there is proper irrigation systems.",
+    "AgroEcological Zone Practices": "In irrigated areas of the province, trees are grown simultaneously with agricultural crops and contribute substantially towards household income through sale of timber and firewood. In addition to these major products, forest flora are traditionally used for number of other minor products including agricultural implements, medicines, and different kinds of fruits and nuts.",
+    "AgroEcological Zone Units": "Thirty-five (35) easily accessible fields/units are working in the province where the staff headed by an Assistant Agricultural Engineer is permanently stationed to serve the farmers by providing services of bulldozers",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Barley",
+    "AgroEcological Zone": "Rainfed Baluchistan",
+    "Additional information": "Mostly planted in rainfed conditions",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "15 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 550",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Balanced fertilizer use is necessary for good crop yield.",
+    "Comments ES": "el uso de fertilizantes equilibrada es necesaria para el rendimiento de buena cosecha.",
+    "Comments FR": "l&apos;utilisation d&apos;engrais équilibré est nécessaire pour un bon rendement des cultures.",
+    "Comments ZH": "平衡施肥使用是必要的良好的作物产量。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Barley",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "Mostly planted in rainfed conditions",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "15 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 550",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "Balanced fertilizer use is necessary for good crop yield.",
+    "Comments ES": "el uso de fertilizantes equilibrada es necesaria para el rendimiento de buena cosecha.",
+    "Comments FR": "l&apos;utilisation d&apos;engrais équilibré est nécessaire pour un bon rendement des cultures.",
+    "Comments ZH": "平衡施肥使用是必要的良好的作物产量。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Barley",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Mostly planted in rainfed conditions",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "40",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "15 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 550",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "Balanced fertilizer use is necessary for good crop yield.",
+    "Comments ES": "el uso de fertilizantes equilibrada es necesaria para el rendimiento de buena cosecha.",
+    "Comments FR": "l&apos;utilisation d&apos;engrais équilibré est nécessaire pour un bon rendement des cultures.",
+    "Comments ZH": "平衡施肥使用是必要的良好的作物产量。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Potato",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Autumn crop",
+    "Early Sowing": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "2500 - 3000",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "500 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Sowing and harvesting of potato seed is very to prevent it from Virus vector Reccommended varieties for potato: Diamant, Patrones, Desiree, Cardinal, Ultimus, Sante, Kirn, Raja,Symfonia, SH 5Fertilizer application is very important for potato crop. Reccommended amount for fertilizer use is: Nitrogen: 250 Kg/ha Phosphorus: 125 Kg/ha Pottash: 125 Kg/ha Half of nitrogen should be applied at the time of sowing and other half at the time of adding soil.",
+    "Comments ES": "La siembra y cosecha de semilla de papa es muy para evitar que las variedades recomendado vector virus de la papa: Diamant, Patrones, Desiree, Cardinal, Ultimus, Sante, Kirn, Raja, Symfonia, aplicación SH 5Fertilizer es muy importante para los cultivos de patatas. cantidad Recomendada para el uso de fertilizantes es: Nitrógeno: 250 Kg / ha Fósforo: 125 Kg / ha Pottash: 125 Kg / ha La mitad de nitrógeno se debe aplicar en el momento de la siembra y la otra mitad en el momento de la adición de suelo.",
+    "Comments FR": "Semis et la récolte de semences de pommes de terre est très pour l&apos;empêcher de vecteur de virus variétés reccommended pour la pomme de terre: Diamant, Patrones, Désirée, Cardinal, Ultimus, Sante, Kirn, Raja, Symfonia, l&apos;application SH 5Fertilizer est très important pour la culture de pommes de terre. quantité reccommended pour l&apos;utilisation d&apos;engrais est: azote: 250 Kg / ha de phosphore: 125 kg / ha Pottash: 125 kg / ha d&apos;azote moitié doit être appliqué au moment du semis et l&apos;autre moitié au moment de l&apos;ajout du sol.",
+    "Comments ZH": "播种马铃薯种子的收获是非常以防止病毒载体Reccommended品种马铃薯：钻石，Patrones，西瑞，红衣主教，Ultimus公司，三特索，基恩，拉贾，Symfonia，SH 5Fertilizer应用是马铃薯作物非常重要。肥料使用Reccommended量是：氮：250公斤/公顷磷125公斤/公顷Pottash 125公斤/公顷氮的一半应在播种和另一半的时间在添加土壤的时间来施加。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Potato",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Spring crop",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "1"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "2500 - 3000",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "500 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Sowing and harvesting of potato seed is very to prevent it from Virus vector Reccommended varieties for potato: Diamant, Patrones, Desiree, Cardinal, Ultimus, Sante, Kirn, Raja,Symfonia, SH 5Fertilizer application is very important for potato crop. Reccommended amount for fertilizer use is: Nitrogen: 250 Kg/ha Phosphorus: 125 Kg/ha Pottash: 125 Kg/ha Half of nitrogen should be applied at the time of sowing and other half at the time of adding soil.",
+    "Comments ES": "La siembra y cosecha de semilla de papa es muy para evitar que las variedades recomendado vector virus de la papa: Diamant, Patrones, Desiree, Cardinal, Ultimus, Sante, Kirn, Raja, Symfonia, aplicación SH 5Fertilizer es muy importante para los cultivos de patatas. cantidad Recomendada para el uso de fertilizantes es: Nitrógeno: 250 Kg / ha Fósforo: 125 Kg / ha Pottash: 125 Kg / ha La mitad de nitrógeno se debe aplicar en el momento de la siembra y la otra mitad en el momento de la adición de suelo.",
+    "Comments FR": "Semis et la récolte de semences de pommes de terre est très pour l&apos;empêcher de vecteur de virus variétés reccommended pour la pomme de terre: Diamant, Patrones, Désirée, Cardinal, Ultimus, Sante, Kirn, Raja, Symfonia, l&apos;application SH 5Fertilizer est très important pour la culture de pommes de terre. quantité reccommended pour l&apos;utilisation d&apos;engrais est: azote: 250 Kg / ha de phosphore: 125 kg / ha Pottash: 125 kg / ha d&apos;azote moitié doit être appliqué au moment du semis et l&apos;autre moitié au moment de l&apos;ajout du sol.",
+    "Comments ZH": "播种马铃薯种子的收获是非常以防止病毒载体Reccommended品种马铃薯：钻石，Patrones，西瑞，红衣主教，Ultimus公司，三特索，基恩，拉贾，Symfonia，SH 5Fertilizer应用是马铃薯作物非常重要。肥料使用Reccommended量是：氮：250公斤/公顷磷125公斤/公顷Pottash 125公斤/公顷氮的一半应在播种和另一半的时间在添加土壤的时间来施加。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Potato",
+    "AgroEcological Zone": "Plains of Balochistan",
+    "Additional information": "Summer crop",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "1000 - 1500",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "500 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "These are the areas where there is proper irrigation systems.",
+    "AgroEcological Zone Practices": "In irrigated areas of the province, trees are grown simultaneously with agricultural crops and contribute substantially towards household income through sale of timber and firewood. In addition to these major products, forest flora are traditionally used for number of other minor products including agricultural implements, medicines, and different kinds of fruits and nuts.",
+    "AgroEcological Zone Units": "Thirty-five (35) easily accessible fields/units are working in the province where the staff headed by an Assistant Agricultural Engineer is permanently stationed to serve the farmers by providing services of bulldozers",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Potato",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "Most of potato is Autumn crop",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "2500 - 3000",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "500 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "Irrigation.",
+    "Comments ES": "Irrigación.",
+    "Comments FR": "Irrigation.",
+    "Comments ZH": "灌溉。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Potato",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Most of potato is Autumn crop",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "2500 - 3000",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "500 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "Irrigation.",
+    "Comments ES": "Irrigación.",
+    "Comments FR": "Irrigation.",
+    "Comments ZH": "灌溉。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Potato",
+    "AgroEcological Zone": "Irrigated areas of NWFP (Plains of NWFP)",
+    "Additional information": "Autumn crop",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "2500 - 3000",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "500 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Soils are fertile and agriculture is strong in this area.",
+    "AgroEcological Zone Practices": "Mix cropping. Wheat,maze, sugercane, vegetables",
+    "AgroEcological Zone Units": "Peshawar, Charsadda, Mardan",
+    "Comments En": "Irrigation.",
+    "Comments ES": "Irrigación.",
+    "Comments FR": "Irrigation.",
+    "Comments ZH": "灌溉。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Lentil",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Rainfed, Second season. Reccommended varieties are: Masoor 93, Sheraz-96, NIAB Masoor-2002",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "45",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "18 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Rainfed. To fulfill the need of Nitrogen and Phosphorus of lentil, one bag of DAP or NPK (8:23:18) 2 bags per acre at the time of sowing should be used.",
+    "Comments ES": "Secano. Para satisfacer la necesidad de nitrógeno y fósforo de lenteja, una bolsa de DAP o NPK (08:23:18) 2 bolsas por acre en el momento de la siembra debe ser utilizado.",
+    "Comments FR": "Pluvial. Pour répondre à la nécessité de l&apos;azote et du phosphore de lentilles, un sac de DAP ou NPK (08:23:18) 2 sacs par acre au moment du semis doit être utilisé.",
+    "Comments ZH": "雨养。为了实现氮和扁豆的磷，磷酸二铵或氮磷钾的一个袋子的需要（8时23分18秒），应使用2袋每亩播种的时间。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Lentil",
+    "AgroEcological Zone": "Upland Balochistan",
+    "Additional information": "Reccommended varieties are Sheraz-96, NIAB Masoor-2002 (Second season). First Season, Reccommended variety is NIAB Masoor 2002 for Upper Balochistan areas.",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "45",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "18 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Highland Balochistan is located in the north central part of the province. It has a continental semi-arid climate with hot summers and cold winters. The most limiting factor for crop production in rain-fed areas of the highlands is the low rainfall and its skewed distribution both in terms of time and space. Annual rainfall ranges from 175 to 200 mm in the southern districts of Khuzdar, Mastung and Kalat",
+    "AgroEcological Zone Practices": "Crop production in non-irrigated areas is totally dependent on rainfall while the main source of irrigation water in the valley floor is tube-wells, karezes and mountains springs. Fruit orchards and vegetables are the major cash crops growing of irrigated lands. Vegetables not only provide protein, vitamins, carbohydrates and roughages to human diet as a nutrition source but are also important source of farm income.",
+    "AgroEcological Zone Units": "Upper rainfed balochistan include Quetta, Khuzdar, Mastung and Kalat etc.",
+    "Comments En": "Removal of weeds at the early stage (at the time of sowing) is very essential. Following steps can be taken to ensure removal of weeds.1. Cultivate the field before sowing. 2. Rotery should be used between the furrows (rows) 3. Lentil crop should not be planted with chick pea.",
+    "Comments ES": "La eliminación de las malas hierbas en la primera etapa (en el momento de la siembra) es muy esencial. los pasos siguientes pueden ser tomadas para asegurar la eliminación de weeds.1. Cultivar el campo antes de la siembra. 2. Rotery se debe utilizar entre los surcos (filas) 3. cultivo de lenteja no debe ser plantado con garbanzo.",
+    "Comments FR": "L&apos;élimination des mauvaises herbes au stade précoce (au moment du semis) est essentiel. Les étapes suivantes peuvent être prises pour assurer l&apos;élimination des weeds.1. Cultiver le terrain avant le semis. 2. Rotery doit être utilisé entre les sillons (lignes) 3. cultures Lentil ne doit pas être planté de pois chiches.",
+    "Comments ZH": "在早期阶段（在播种的时候）杂草的去除是非常必要的。可以采取以下措施来确保去除weeds.1的。播种前培养领域。 2. Rotery应沟（行）之间可以使用3.扁豆作物不应该与鹰嘴豆种植。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Lentil",
+    "AgroEcological Zone": "Upland Balochistan",
+    "Additional information": "Reccommended varieties are Sheraz-96, NIAB Masoor-2002 (Second season). First Season, Reccommended variety is NIAB Masoor 2002 for Upper Balochistan areas.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "45",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "18 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Highland Balochistan is located in the north central part of the province. It has a continental semi-arid climate with hot summers and cold winters. The most limiting factor for crop production in rain-fed areas of the highlands is the low rainfall and its skewed distribution both in terms of time and space. Annual rainfall ranges from 175 to 200 mm in the southern districts of Khuzdar, Mastung and Kalat",
+    "AgroEcological Zone Practices": "Crop production in non-irrigated areas is totally dependent on rainfall while the main source of irrigation water in the valley floor is tube-wells, karezes and mountains springs. Fruit orchards and vegetables are the major cash crops growing of irrigated lands. Vegetables not only provide protein, vitamins, carbohydrates and roughages to human diet as a nutrition source but are also important source of farm income.",
+    "AgroEcological Zone Units": "Upper rainfed balochistan include Quetta, Khuzdar, Mastung and Kalat etc.",
+    "Comments En": "Removal of weeds at the early stage (at the time of sowing) is very essential. Following steps can be taken to ensure removal of weeds.1. Cultivate the field before sowing. 2. Rotery should be used between the furrows (rows) 3. Lentil crop should not be planted with chick pea.",
+    "Comments ES": "La eliminación de las malas hierbas en la primera etapa (en el momento de la siembra) es muy esencial. los pasos siguientes pueden ser tomadas para asegurar la eliminación de weeds.1. Cultivar el campo antes de la siembra. 2. Rotery se debe utilizar entre los surcos (filas) 3. cultivo de lenteja no debe ser plantado con garbanzo.",
+    "Comments FR": "L&apos;élimination des mauvaises herbes au stade précoce (au moment du semis) est essentiel. Les étapes suivantes peuvent être prises pour assurer l&apos;élimination des weeds.1. Cultiver le terrain avant le semis. 2. Rotery doit être utilisé entre les sillons (lignes) 3. cultures Lentil ne doit pas être planté de pois chiches.",
+    "Comments ZH": "在早期阶段（在播种的时候）杂草的去除是非常必要的。可以采取以下措施来确保去除weeds.1的。播种前培养领域。 2. Rotery应沟（行）之间可以使用3.扁豆作物不应该与鹰嘴豆种植。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Lentil",
+    "AgroEcological Zone": "Rainfed areas of NWFP",
+    "Additional information": "Second season, Reccommended variety is Ratta Kalachi-2004",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "45",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "18 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "South of NWFP. Agriculture mostly depends on rains.",
+    "AgroEcological Zone Practices": "Wheat, vegetables, Potato are major crops. 60 % of NWFP falls under rainfed zone.",
+    "AgroEcological Zone Units": "Dera Ismail Khan.",
+    "Comments En": "Removal of weeds at the early stage (at the time of sowing) is very essential. Following steps can be taken to ensure removal of weeds.1. Cultivate the field before sowing. 2. Rotery should be used between the furrows (rows) 3. Lentil crop should not be planted with chick pea.",
+    "Comments ES": "La eliminación de las malas hierbas en la primera etapa (en el momento de la siembra) es muy esencial. los pasos siguientes pueden ser tomadas para asegurar la eliminación de weeds.1. Cultivar el campo antes de la siembra. 2. Rotery se debe utilizar entre los surcos (filas) 3. cultivo de lenteja no debe ser plantado con garbanzo.",
+    "Comments FR": "L&apos;élimination des mauvaises herbes au stade précoce (au moment du semis) est essentiel. Les étapes suivantes peuvent être prises pour assurer l&apos;élimination des weeds.1. Cultiver le terrain avant le semis. 2. Rotery doit être utilisé entre les sillons (lignes) 3. cultures Lentil ne doit pas être planté de pois chiches.",
+    "Comments ZH": "在早期阶段（在播种的时候）杂草的去除是非常必要的。可以采取以下措施来确保去除weeds.1的。播种前培养领域。 2. Rotery应沟（行）之间可以使用3.扁豆作物不应该与鹰嘴豆种植。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Chick-pea",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Mostly rainfed. Reccommended varieties are: C-44, Bittle-98. Apart from this NIFA-95, CM-98, Punjab- chicpea are varieties of desi chick-pea. Noor-91 and CM-99 are reccommended varieties of white chick-pea",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "75",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "1",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "18 - 29",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Pod Borer is one of the dangerous insects of chick-pea. It attacks normally in March. Karate 25 EC at the rate of 250 ml per acre mixed in 80-90 litre water should be applied.",
+    "Comments ES": "Pod Borer es uno de los insectos peligrosos de garbanzo. Ataca normalmente en marzo. Karate 25 CE a razón de 250 ml por acre mezclado en 80-90 litros de agua se debe aplicar.",
+    "Comments FR": "Pod Borer est l&apos;un des insectes dangereux de pois chiche. Il attaque normalement en Mars. Karaté 25 EC à raison de 250 ml par acre mélangé à l&apos;eau de 80 à 90 litres doit être appliquée.",
+    "Comments ZH": "豆荚螟是鹰嘴豆的危险昆虫之一。它在三月份通常攻击。空手道25 EC以每英亩在80-90升的水混合250毫升率应被应用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mung bean",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Irrigation.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "22",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "12",
+      "Optimal": "28 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "350 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Major problems are 1. Diseases ( YMV, LCV, CLS), 2- Insects (Hairy catterpiller, Aphid, Jassid), 3. Weeds, 4. Drought and non availability of improved seeds.",
+    "Comments ES": "Los principales problemas son 1. Enfermedades (YMV, LCV, CLS), 2- Insectos (Hairy catterpiller, áfidos, Jassid), 3. Las malas hierbas, 4. La sequía y la falta de disponibilidad de semillas mejoradas.",
+    "Comments FR": "Les principaux problèmes sont 1. Les maladies (YMV, VUL, CLS), 2- Insectes (Poilu catterpiller, Puceron, jasside), 3. Les mauvaises herbes, 4. La sécheresse et la non disponibilité des semences améliorées.",
+    "Comments ZH": "主要问题是：1.疾病（YMV，LCV，CLS），2-昆虫（毛状catterpiller，蚜虫，Jassid），3.杂草，4.干旱和改进的种子的非可用性。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mung bean",
+    "AgroEcological Zone": "Northern Punjab",
+    "Additional information": "Irrigation.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "12",
+      "Optimal": "28 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "350 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Major problems are 1. Diseases ( YMV, LCV, CLS), 2- Insects (Hairy catterpiller, Aphid, Jassid), 3. Weeds, 4. Drought and non availability of improved seeds.",
+    "Comments ES": "Los principales problemas son 1. Enfermedades (YMV, LCV, CLS), 2- Insectos (Hairy catterpiller, áfidos, Jassid), 3. Las malas hierbas, 4. La sequía y la falta de disponibilidad de semillas mejoradas.",
+    "Comments FR": "Les principaux problèmes sont 1. Les maladies (YMV, VUL, CLS), 2- Insectes (Poilu catterpiller, Puceron, jasside), 3. Les mauvaises herbes, 4. La sécheresse et la non disponibilité des semences améliorées.",
+    "Comments ZH": "主要问题是：1.疾病（YMV，LCV，CLS），2-昆虫（毛状catterpiller，蚜虫，Jassid），3.杂草，4.干旱和改进的种子的非可用性。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mung bean",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Rainfed.",
+    "Early Sowing": {
+      "Day": "23",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "12",
+      "Optimal": "28 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "350 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Critical problems are: Flowering, Pod formation, Grain filling and Maturity.",
+    "Comments ES": "problemas críticos son: Florecimiento, la formación de la vaina, el llenado del grano y la madurez.",
+    "Comments FR": "problèmes critiques sont les suivants: La floraison, la formation Pod, remplissage du grain et de maturité.",
+    "Comments ZH": "关键问题是：开花，结荚，籽粒灌浆和成熟度。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Cowpea",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Developed varieties are: N0. 411 and 82",
+    "Early Sowing": {
+      "Day": "29",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "32",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "25 - 35",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "400 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Distance between the rows should be 20 inches and the distance between the plants should be 16-20 inches. Farm yard manure should be applied in amount of 20 tonnes per acre, nitrogen 46 Kg/acre, Phosphorus 23 Kg/acre and Pottash 25 Kg/acre. Gap between irrigations should be 7 days.",
+    "Comments ES": "Distancia entre las hileras debe ser de 20 pulgadas y la distancia entre las plantas debe ser de 16-20 pulgadas. Granja patio estiércol se debe aplicar en una cantidad de 20 toneladas por acre, nitrógeno 46 Kg / acre, fósforo 23 Kg / acre y Pottash 25 Kg / acre. Brecha entre riegos debe ser de 7 días.",
+    "Comments FR": "Distance entre les lignes doit être de 20 pouces et la distance entre les plantes doit être 16-20 pouces. fumier de ferme doit être appliquée en quantité de 20 tonnes par acre, azote 46 kg / acre, phosphore 23 kg / acre et Pottash 25 kg / acre. Écart entre les irrigations devrait être de 7 jours.",
+    "Comments ZH": "各行之间的距离应为20英寸，植物之间的距离应在16-20英寸。农场厩肥应在每英亩20吨，氮46公斤/英亩，磷23公斤/英亩和Pottash 25公斤/英亩的量施加。灌溉差距应该是7天。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Cowpea",
+    "AgroEcological Zone": "Northern Punjab",
+    "Additional information": "Developed varieties are: N0. 411 and 82",
+    "Early Sowing": {
+      "Day": "29",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "32",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "25 - 35",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "400 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 20 inches and the distance between the plants should be 16-20 inches. Farm yard manure should be applied in amount of 20 tonnes per acre, nitrogen 46 Kg/acre, Phosphorus 23 Kg/acre and Pottash 25 Kg/acre. Gap between irrigations should be 7 days.",
+    "Comments ES": "Distancia entre las hileras debe ser de 20 pulgadas y la distancia entre las plantas debe ser de 16-20 pulgadas. Granja patio estiércol se debe aplicar en una cantidad de 20 toneladas por acre, nitrógeno 46 Kg / acre, fósforo 23 Kg / acre y Pottash 25 Kg / acre. Brecha entre riegos debe ser de 7 días.",
+    "Comments FR": "Distance entre les lignes doit être de 20 pouces et la distance entre les plantes doit être 16-20 pouces. fumier de ferme doit être appliquée en quantité de 20 tonnes par acre, azote 46 kg / acre, phosphore 23 kg / acre et Pottash 25 kg / acre. Écart entre les irrigations devrait être de 7 jours.",
+    "Comments ZH": "各行之间的距离应为20英寸，植物之间的距离应在16-20英寸。农场厩肥应在每英亩20吨，氮46公斤/英亩，磷23公斤/英亩和Pottash 25公斤/英亩的量施加。灌溉差距应该是7天。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mustard",
+    "AgroEcological Zone": "Upland Balochistan",
+    "Additional information": "Reccommended varieties are Sherali,Dunkald, Rainbow, Oscer, Raya, Pakola",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Highland Balochistan is located in the north central part of the province. It has a continental semi-arid climate with hot summers and cold winters. The most limiting factor for crop production in rain-fed areas of the highlands is the low rainfall and its skewed distribution both in terms of time and space. Annual rainfall ranges from 175 to 200 mm in the southern districts of Khuzdar, Mastung and Kalat",
+    "AgroEcological Zone Practices": "Crop production in non-irrigated areas is totally dependent on rainfall while the main source of irrigation water in the valley floor is tube-wells, karezes and mountains springs. Fruit orchards and vegetables are the major cash crops growing of irrigated lands. Vegetables not only provide protein, vitamins, carbohydrates and roughages to human diet as a nutrition source but are also important source of farm income.",
+    "AgroEcological Zone Units": "Upper rainfed balochistan include Quetta, Khuzdar, Mastung and Kalat etc.",
+    "Comments En": "Rainfed: In normal cases one bag of DAP and one bag of urea per acre should be applied. Latest research has shown that the use of Pottash allows crop to fight against drought and diseases. So one bag of pottash should be applied per acre. In rainfed areas all the fertilizers should be used at the time of preparing field for planting.",
+    "Comments ES": "Secano: En casos normales una bolsa de DAP y una bolsa de urea por acre deben aplicarse. Las últimas investigaciones han demostrado que el uso de Pottash permite cultivos para luchar contra la sequía y las enfermedades. Así que una bolsa de pottash debe ser aplicada por acre. En las zonas de secano todos los fertilizantes deben ser utilizados en el momento de la preparación de terreno para la siembra.",
+    "Comments FR": "Pluvial: Dans les cas normaux, un sac de DAP et un sac d&apos;urée par acre doivent être appliquées. Les dernières recherches ont montré que l&apos;utilisation de Pottash permet la culture de lutte contre la sécheresse et aux maladies. Donc, un sac de pottash doit être appliqué par acre. Dans les zones non irriguées tous les engrais doivent être utilisés au moment de la préparation champ pour la plantation.",
+    "Comments ZH": "雨育：在正常情况下，DAP的一个包和每英亩尿素的一个袋应适用。最新的研究表明，使用Pottash允许作物抗旱和疾病作斗争。所以pottash的一个塑料袋应每亩施用。在旱作地区所有的化肥应在现场准备种植时使用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mustard",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Reccommended varieties are Sherali,Dunkald, Rainbow,Oscer, Raya and Pakola",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Mustard crop needs 12-15 inches of water, which can be fulfilled by 3-4 irrigations (waters) First water should be given between 30-35 days of planting, second water should be given at flowering stage and the third water should be given when the seed starts forming.",
+    "Comments ES": "cultivo de la mostaza necesita 12-15 pulgadas de agua, que pueden ser cumplidas por 3-4 de riego (aguas) Primera agua debe administrarse entre 30-35 días de la siembra, segundo el agua debe ser dado en la etapa de floración y la tercera agua se debe dar cuando la semilla empieza a formar.",
+    "Comments FR": "besoins des cultures de moutarde 12-15 pouces d&apos;eau, qui peuvent être remplies par 3-4 irrigations (eaux) l&apos;eau doit être d&apos;abord donné entre 30-35 jours de plantation, deuxième eau doit être donnée au stade floraison et la troisième eau devrait être donnée lorsque la semence commence à se former.",
+    "Comments ZH": "芥末作物需水12-15英寸，这可以通过3-4灌溉（水）履行应种植30-35天之间给予一是水，二次供水应在开花期和第三水体应给予给予种子开始时形成。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mustard",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Irrigated and rainfed areas",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 140",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Mustard should be planted with the help of drill. Drill used for sowing wheat should be filled with 2 Kg mustard seed and 38 Kg TSP or DAP or put dry sand of same amount in it and then plant the crop.",
+    "Comments ES": "Mostaza se deben plantar con la ayuda del taladro. Taladro utilizado para el trigo de siembra debe ser llenado con 2 Kg de semilla de mostaza y 38 Kg TSP o DAP o poner arena seca de misma cantidad en ella y luego plantar el cultivo.",
+    "Comments FR": "La moutarde doit être planté avec l&apos;aide de forage. Semoir occasion pour le blé de semis doit être rempli avec 2 kg de graines de moutarde et 38 kg TSP ou DAP ou mettre du sable sec de même montant, puis planter la culture.",
+    "Comments ZH": "芥末应种植带钻的帮助。电钻用于播种小麦应该充满2公斤芥菜籽和38公斤TSP或DAP或放在它相同量的干砂，然后种植作物。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mustard",
+    "AgroEcological Zone": "Irrigated areas of NWFP (Plains of NWFP)",
+    "Additional information": "Both irrigated and rainfed areas.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 140",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Soils are fertile and agriculture is strong in this area.",
+    "AgroEcological Zone Practices": "Mix cropping. Wheat,maze, sugercane, vegetables",
+    "AgroEcological Zone Units": "Peshawar, Charsadda, Mardan",
+    "Comments En": "Mustard should be planted with the help of drill. Drill used for sowing wheat should be filled with 2 Kg mustard seed and 38 Kg TSP or DAP or put dry sand of same amount in it and then plant the crop.",
+    "Comments ES": "Mostaza se deben plantar con la ayuda del taladro. Taladro utilizado para el trigo de siembra debe ser llenado con 2 Kg de semilla de mostaza y 38 Kg TSP o DAP o poner arena seca de misma cantidad en ella y luego plantar el cultivo.",
+    "Comments FR": "La moutarde doit être planté avec l&apos;aide de forage. Semoir occasion pour le blé de semis doit être rempli avec 2 kg de graines de moutarde et 38 kg TSP ou DAP ou mettre du sable sec de même montant, puis planter la culture.",
+    "Comments ZH": "芥末应种植带钻的帮助。电钻用于播种小麦应该充满2公斤芥菜籽和38公斤TSP或DAP或放在它相同量的干砂，然后种植作物。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mustard",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "Both irrigated and rainfed areas.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "Mostly irrigation applied.",
+    "Comments ES": "Sobre todo de riego aplicada.",
+    "Comments FR": "La plupart du temps l&apos;irrigation appliquée.",
+    "Comments ZH": "晴灌溉应用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Mustard",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Both irrigated and rainfed areas.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "Mostly irrigation applied.",
+    "Comments ES": "Sobre todo de riego aplicada.",
+    "Comments FR": "La plupart du temps l&apos;irrigation appliquée.",
+    "Comments ZH": "晴灌溉应用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sesame",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Both Irrigated and rainfed areas produce Sesame. Reccommended varieties are Punjab Til (sesame)-90, Punjab Til (sesame)-89, TS-3 P 37-40 and S-17",
+    "Early Sowing": {
+      "Day": "25",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "20",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "25 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Sandy soil is required for planting Sesame with good amount of moisture in the soil. After irrigation when soil is in watter conditions, cultivation is required for soil preperation. Planting should be in rows. The distance between the rows should be 45-60 cm. The depth of seed should not be more than 2 inches so that the crop can be grown quickly.",
+    "Comments ES": "Se requiere de suelos de arena para sésamo siembra con buena cantidad de humedad en el suelo. Después de riego cuando el suelo está en condiciones watter, se requiere el cultivo de preparacion del suelo. La siembra debe estar en filas. La distancia entre las filas debe ser de 45-60 cm. La profundidad de la semilla no debe ser más de 2 pulgadas de modo que el cultivo se puede cultivar rápidamente.",
+    "Comments FR": "Le sol sablonneux est nécessaire pour la plantation de sésame avec une bonne quantité d&apos;humidité dans le sol. Après l&apos;irrigation lorsque le sol est dans des conditions de Watter, la culture est nécessaire pour preperation du sol. La plantation doit être en rangées. La distance entre les lignes doit être 45-60 cm. La profondeur des semences ne devrait pas être plus de 2 pouces pour que la culture peut être cultivée rapidement.",
+    "Comments ZH": "沙质土壤需要与土壤中的良好的水分，种植芝麻。灌水后土壤时，在瓦尔特的条件下，需要土壤水面浮油栽培。种植应该是行。行之间的距离应为45-60厘米。种子的深度不宜不只两英寸，使作物能够迅速成长。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sesame",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "Both rainfed and irrigated",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "25 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "Fertilizer use per acre is as follows: At the time of planting either one bag of DAP plus half bag of urea OR one bag of Nitrofos plus half bag of urea should be applied. At the time of first irrigation, half bag of urea should be applied per acre.",
+    "Comments ES": "El uso de fertilizantes por acre es el siguiente: En el momento de la siembra o bien una bolsa de DAP más la mitad de la bolsa de urea o una bolsa de Nitrofos más la mitad de la bolsa de urea se debe aplicar. En el momento de primer riego, media bolsa de urea se debe aplicar por acre.",
+    "Comments FR": "L&apos;utilisation des engrais par acre est le suivant: Au moment de la plantation, soit un sac de DAP et de la moitié sac d&apos;urée ou d&apos;un sac de Nitrofos plus la moitié de sac d&apos;urée doit être appliqué. Au moment de la première irrigation, moitié d&apos;un sac d&apos;urée doit être appliquée par acre.",
+    "Comments ZH": "每亩化肥使用方法如下：在种植要么磷酸二铵一袋尿素加半袋或Nitrofos一袋尿素加半袋时应当适用。起初灌溉时，尿素的半袋应每亩施用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sesame",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Both rainfed and irrigated",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "25 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "Fertilizer use per acre is as follows: At the time of planting either one bag of DAP plus half bag of urea OR one bag of Nitrofos plus half bag of urea should be applied. At the time of first irrigation, half bag of urea should be applied per acre.",
+    "Comments ES": "El uso de fertilizantes por acre es el siguiente: En el momento de la siembra o bien una bolsa de DAP más la mitad de la bolsa de urea o una bolsa de Nitrofos más la mitad de la bolsa de urea se debe aplicar. En el momento de primer riego, media bolsa de urea se debe aplicar por acre.",
+    "Comments FR": "L&apos;utilisation des engrais par acre est le suivant: Au moment de la plantation, soit un sac de DAP et de la moitié sac d&apos;urée ou d&apos;un sac de Nitrofos plus la moitié de sac d&apos;urée doit être appliqué. Au moment de la première irrigation, moitié d&apos;un sac d&apos;urée doit être appliquée par acre.",
+    "Comments ZH": "每亩化肥使用方法如下：在种植要么磷酸二铵一袋尿素加半袋或Nitrofos一袋尿素加半袋时应当适用。起初灌溉时，尿素的半袋应每亩施用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sesame",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Rainfed and irrigated",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "25 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sesame",
+    "AgroEcological Zone": "Irrigated areas of NWFP (Plains of NWFP)",
+    "Additional information": "Both rainfed and irrigation.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "25 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Soils are fertile and agriculture is strong in this area.",
+    "AgroEcological Zone Practices": "Mix cropping. Wheat,maze, sugercane, vegetables",
+    "AgroEcological Zone Units": "Peshawar, Charsadda, Mardan",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sesame",
+    "AgroEcological Zone": "Plains of Balochistan",
+    "Additional information": "",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "100 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "25 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 650",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "These are the areas where there is proper irrigation systems.",
+    "AgroEcological Zone Practices": "In irrigated areas of the province, trees are grown simultaneously with agricultural crops and contribute substantially towards household income through sale of timber and firewood. In addition to these major products, forest flora are traditionally used for number of other minor products including agricultural implements, medicines, and different kinds of fruits and nuts.",
+    "AgroEcological Zone Units": "Thirty-five (35) easily accessible fields/units are working in the province where the staff headed by an Assistant Agricultural Engineer is permanently stationed to serve the farmers by providing services of bulldozers",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sugarcane",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Spring Planting: Reccommended varieties are: Early maturing: BL-4, L-116 BF-162, CP 43-33, Cp 72-2086, CP 77-400, SPSG-26, CPF-237 Mid season: Triton, COL-54, SPF-213 Late Maturing: L-118, COJ-84 Fall Planting also practiced successfully.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3.5 - 4",
+      "Unit": "tons/acre"
+    },
+    "Growing period": {
+      "Value": "10 - 12",
+      "Period": "months"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "38"
+    },
+    "Precipitation": {
+      "Value": "1500 - 2500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Irrigation. For a good crop of sugarcane approximately 64 to 72 inches/acre water is needed per year. Apart from rain, 15 - 18 waters(irrigations) are required for a good crop yield of sugarcane. Depending on the weather conditions, the gap between irrigations in April should be 12 -14 days, in may and june it should be 8 - 10 days, in July August it should be 12 - 15 days in September and october it should be 15- 20 days and from November to february the gap between irrigations should be 25 - 30 days.",
+    "Comments ES": "Irrigación. Para una buena cosecha de caña de azúcar de aproximadamente 64 a 72 pulgadas / agua es necesaria acre por año. Aparte de la lluvia, 15 - Se requieren 18 (aguas de riego) para un rendimiento buena cosecha de caña de azúcar. Dependiendo de las condiciones climáticas, la brecha entre riegos en abril debe ser de 12 a 14 días, en mayo y junio debería ser de 8 - 10 días, en Julio Agosto debería ser 12 - 15 días en septiembre y octubre que debería ser 15- 20 días y de noviembre a febrero la brecha entre riegos debe ser de 25 - 30 días.",
+    "Comments FR": "Irrigation. Pour une bonne récolte de la canne à sucre d&apos;environ 64 à 72 pouces / eau acres par an sont nécessaires. En dehors de la pluie, 15 - 18 eaux (irrigations) sont nécessaires pour un bon rendement des cultures de canne à sucre. En fonction des conditions météorologiques, l&apos;écart entre les irrigations en Avril devrait être 12 à 14 jours, en mai et en juin, il devrait être 8 - 10 jours, en Juillet Août il devrait être 12 - 15 jours en Septembre et octobre, il devrait être 15 20 jours et de Novembre à février l&apos;écart entre les irrigations devrait être 25 - 30 jours.",
+    "Comments ZH": "灌溉。对于甘蔗的好收成大约64到72英寸/每年每亩需水。除了下雨，15  -  18水（灌溉）所需要的甘蔗良好的作物产量。根据天气情况，在四月灌溉之间的间隙应为12日 -  14日，在五月和六月应该是8  -  10天，于七月八月应该是12  -  15天九，十月份应该是15〜 20天，从十一月到二月灌溉之间的差距应在25  -  30天。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sugarcane",
+    "AgroEcological Zone": "Northern Punjab",
+    "Additional information": "Spring Planting: Reccommended varieties are: Early maturing: BL-4, L-116 BF-162, CP 43-33, Cp 72-2086, CP 77-400, SPSG-26, CPF-237 Mid season: Triton, COL-54, SPF-213 Late Maturing: L-118, COJ-84 Fall Planting also practiced successfully.",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3.5 - 4",
+      "Unit": "tons/acre"
+    },
+    "Growing period": {
+      "Value": "6",
+      "Period": "months"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "2"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "38"
+    },
+    "Precipitation": {
+      "Value": "1500 - 2500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Irrigation should be stopped one month prior to harvesting.",
+    "Comments ES": "El riego debe ser detenido un mes antes de la cosecha.",
+    "Comments FR": "L&apos;irrigation doit être arrêté un mois avant la récolte.",
+    "Comments ZH": "灌溉，应当在一个月之前，收获停止。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sugarcane",
+    "AgroEcological Zone": "Irrigated Sindh",
+    "Additional information": "Spring Planting",
+    "Early Sowing": {
+      "Day": "10",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3.5 - 4",
+      "Unit": "tons/acre"
+    },
+    "Growing period": {
+      "Value": "10 - 12",
+      "Period": "months"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "38"
+    },
+    "Precipitation": {
+      "Value": "1500 - 2500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Reccommended varieties for sindh area are: Lower sindh (areas south to Hyderabad), Early maturing: BL-4 Mid season: PR-1000, BF-129, Late maturing: NIA-98 Upper Sindh (areas north to Hyderabad), Early maturing: BL-4 L-113, L-116, TRITON, SPSG-26 Late maturing: NIA-98",
+    "Comments ES": "variedades recomendado para el área de Sindh son: Baja sindh (áreas al sur de Hyderabad), maduración temprana: BL-4 Temporada media: PR-1000, BF-129, maduración tardía: NIA-98 Alto Sind (zonas norte a Hyderabad), maduración temprana : BL-4 L-113, L-116, TRITON, SPSG-26 maduración tardía: NIA-98",
+    "Comments FR": "variétés pour la zone Sindh reccommended sont: Basse Sindh (régions du sud à Hyderabad), maturation précoce: BL-4 Moyenne saison: PR-1000, BF-129, Maturité tardive: NIA-98 supérieur Sindh (zones nord à Hyderabad), maturation précoce : BL-4 L-113, L-116, TRITON, SPSG-26 tardif de maturation: NIA-98",
+    "Comments ZH": "Reccommended品种为信德地区是：降低信德省（区南部海得拉巴），早熟：BL-4平季：PR-1000，BF-129，晚熟：NIA-98上信德省（区北至海得拉巴），早熟：BL-4 L-113，L-116，TRITON，SPSG-26晚熟：NIA-98",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sugarcane",
+    "AgroEcological Zone": "Irrigated Sindh",
+    "Additional information": "Fall Planting",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3.5 - 4",
+      "Unit": "tons/acre"
+    },
+    "Growing period": {
+      "Value": "6 - 8",
+      "Period": "months"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "2"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "38"
+    },
+    "Precipitation": {
+      "Value": "1500 - 2500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Reccommended varieties for sindh area are: Lower sindh (areas south to Hyderabad), Early maturing: BL-4 Mid season: PR-1000, BF-129, Late maturing: NIA-98 Upper Sindh (areas north to Hyderabad), Early maturing: BL-4 L-113, L-116, TRITON, SPSG-26 Late maturing: NIA-98",
+    "Comments ES": "variedades recomendado para el área de Sindh son: Baja sindh (áreas al sur de Hyderabad), maduración temprana: BL-4 Temporada media: PR-1000, BF-129, maduración tardía: NIA-98 Alto Sind (zonas norte a Hyderabad), maduración temprana : BL-4 L-113, L-116, TRITON, SPSG-26 maduración tardía: NIA-98",
+    "Comments FR": "variétés pour la zone Sindh reccommended sont: Basse Sindh (régions du sud à Hyderabad), maturation précoce: BL-4 Moyenne saison: PR-1000, BF-129, Maturité tardive: NIA-98 supérieur Sindh (zones nord à Hyderabad), maturation précoce : BL-4 L-113, L-116, TRITON, SPSG-26 tardif de maturation: NIA-98",
+    "Comments ZH": "Reccommended品种为信德地区是：降低信德省（区南部海得拉巴），早熟：BL-4平季：PR-1000，BF-129，晚熟：NIA-98上信德省（区北至海得拉巴），早熟：BL-4 L-113，L-116，TRITON，SPSG-26晚熟：NIA-98",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sugarcane",
+    "AgroEcological Zone": "Irrigated areas of NWFP (Plains of NWFP)",
+    "Additional information": "Spring Planting",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "20",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3.5 - 4",
+      "Unit": "tons/acre"
+    },
+    "Growing period": {
+      "Value": "10 - 12",
+      "Period": "months"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "12"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "38"
+    },
+    "Precipitation": {
+      "Value": "1500 - 2500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Soils are fertile and agriculture is strong in this area.",
+    "AgroEcological Zone Practices": "Mix cropping. Wheat,maze, sugercane, vegetables",
+    "AgroEcological Zone Units": "Peshawar, Charsadda, Mardan",
+    "Comments En": "Irrigation: Reccommended varieties are: Early maturing: CP 48-103, CP 51-21, CP 65-357, CPM-13, CO-1321, Mardan-93, JN 88-1, ABID-96, SPSG-26. Mid season: CP 77-400, CP 44-101, IM-81, L 62-96, Mardan-92, Bannu-1. Reccommended fertilizer application for sugarcane per acre is as follows. Urea: 2.25 - 3.5 bags/acre, DAP: 2- 2.25 bags/acre MOP/SOP: 2- 2.25 bags/acre.",
+    "Comments ES": "Riego: Recomendada variedades son: maduración temprana: CP 48-103, CP 51 a 21, CP 65-357, CPM-13, CO-1321, Mardan-93, JN 88-1, ABID-96, SPSG-26. Temporada media: CP 77-400, CP 44-101, IM-81, L 62-96, Mardan-92, Bannu-1. la aplicación de fertilizantes Reccommended de la caña de azúcar por acre es el siguiente. Urea: 02.25 a 03.05 bolsas / acre, DAP: 2- 2.25 bolsas / acre MOP / SOP: 2- 2.25 bolsas / acre.",
+    "Comments FR": "Irrigation: variétés reccommended sont les suivants: Au début de maturation: CP 48-103, 51-21 CP, CP 65-357, CPM-13, CO-1321, Mardan-93, JN 88-1, ABID-96, SPSG-26. mi-saison: CP 77-400, 44-101 CP, IM-81, L 62-96, Mardan-92, Bannu-1. l&apos;application d&apos;engrais reccommended pour la canne à sucre par acre est la suivante. Urée: 02.25 à 03.05 sacs / acre, DAP: 2 2.25 sacs / acre MOP / SOP: 2 2.25 sacs / acre.",
+    "Comments ZH": "灌溉：Reccommended品种有：早熟：CP 48-103，CP 51-21，CP 65-357，CPM-13，CO-1321，马尔丹-93，JN 88-1，ABID-96，SPSG-26。中季节：CP 77-400，CP 44-101，IM-81，L 62-96，马尔丹-92，本努-1。对于每英亩甘蔗Reccommended施肥如下。尿素：2.25  -  3.5袋/英亩，DAP：2- 2.25袋/英亩MOP / SOP：2- 2.25袋/英亩。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sugarcane",
+    "AgroEcological Zone": "Irrigated areas of NWFP (Plains of NWFP)",
+    "Additional information": "Fall Planting",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3.5 - 4",
+      "Unit": "tons/acre"
+    },
+    "Growing period": {
+      "Value": "6",
+      "Period": "months"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "2"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "38"
+    },
+    "Precipitation": {
+      "Value": "1500 - 2500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "Soils are fertile and agriculture is strong in this area.",
+    "AgroEcological Zone Practices": "Mix cropping. Wheat,maze, sugercane, vegetables",
+    "AgroEcological Zone Units": "Peshawar, Charsadda, Mardan",
+    "Comments En": "Irrigation: Reccommended varieties are: Early maturing: CP 48-103, CP 51-21, CP 65-357, CPM-13, CO-1321, Mardan-93, JN 88-1, ABID-96, SPSG-26. Mid season: CP 77-400, CP 44-101, IM-81, L 62-96, Mardan-92, Bannu-1. Reccommended fertilizer application for sugarcane per acre is as follows. Urea: 2.25 - 3.5 bags/acre, DAP: 2- 2.25 bags/acre MOP/SOP: 2- 2.25 bags/acre.",
+    "Comments ES": "Riego: Recomendada variedades son: maduración temprana: CP 48-103, CP 51 a 21, CP 65-357, CPM-13, CO-1321, Mardan-93, JN 88-1, ABID-96, SPSG-26. Temporada media: CP 77-400, CP 44-101, IM-81, L 62-96, Mardan-92, Bannu-1. la aplicación de fertilizantes Reccommended de la caña de azúcar por acre es el siguiente. Urea: 02.25 a 03.05 bolsas / acre, DAP: 2- 2.25 bolsas / acre MOP / SOP: 2- 2.25 bolsas / acre.",
+    "Comments FR": "Irrigation: variétés reccommended sont les suivants: Au début de maturation: CP 48-103, 51-21 CP, CP 65-357, CPM-13, CO-1321, Mardan-93, JN 88-1, ABID-96, SPSG-26. mi-saison: CP 77-400, 44-101 CP, IM-81, L 62-96, Mardan-92, Bannu-1. l&apos;application d&apos;engrais reccommended pour la canne à sucre par acre est la suivante. Urée: 02.25 à 03.05 sacs / acre, DAP: 2 2.25 sacs / acre MOP / SOP: 2 2.25 sacs / acre.",
+    "Comments ZH": "灌溉：Reccommended品种有：早熟：CP 48-103，CP 51-21，CP 65-357，CPM-13，CO-1321，马尔丹-93，JN 88-1，ABID-96，SPSG-26。中季节：CP 77-400，CP 44-101，IM-81，L 62-96，马尔丹-92，本努-1。对于每英亩甘蔗Reccommended施肥如下。尿素：2.25  -  3.5袋/英亩，DAP：2- 2.25袋/英亩MOP / SOP：2- 2.25袋/英亩。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Safflower",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Irrigation. Commercial reccommended varieties are Gilla, US- 10, S-208(Spiny) Thori-78 and Pawari-95 (spineless)",
+    "Early Sowing": {
+      "Day": "20",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20 - 25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Fertilization in canal irrigated areas should be as follows: one bag urea and one bag DAP, all DAP at sowing and half urea at sowing and half at first irrigation. Like other oilseed crops, it should be sown in lines. In irrigated areas the line to line distance should be 45 cm (1.5 ft)",
+    "Comments ES": "La fertilización en el canal irrigada áreas deben ser como sigue: una urea bolsa y una DAP bolsa, todo DAP a la siembra y media de urea a la siembra y la media en primer riego. Al igual que otros cultivos de semillas oleaginosas, se debe sembrar en líneas. En las áreas de riego de la línea a distancia en línea debe ser de 45 cm (1,5 pies)",
+    "Comments FR": "Engrais à canal zones irriguées doivent être les suivantes: une urée de sac et un sac DAP, tout DAP et de l&apos;urée au moment du semis de la moitié au semis et la moitié au premier irrigation. Comme d&apos;autres cultures oléagineuses, il devrait être semée en lignes. Dans les zones irriguées de la ligne à distance en ligne devrait être de 45 cm (1,5 ft)",
+    "Comments ZH": "施肥运河灌区应该如下：一吨尿素和一个袋子，DAP，所有DAP在播种和半尿素播种，一半在第一灌溉。像其他油籽作物，应该行播种。在灌溉区的线到线的距离应为45厘​​米（1.5英尺）",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Safflower",
+    "AgroEcological Zone": "Northern Punjab",
+    "Additional information": "Irrigation. Commercial reccommended varieties are Gilla, US- 10, S-208(Spiny) Thori-78 and Pawari-95 (spineless)",
+    "Early Sowing": {
+      "Day": "20",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20 - 25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Fertilization in Barani areas should be as follows: One bag urea and one bag DAP at sowing time/bed preperation.",
+    "Comments ES": "La fertilización en áreas Barani debe ser como sigue: Una urea bolsa y una DAP bolsa en la siembra preperation tiempo / cama.",
+    "Comments FR": "La fertilisation dans les zones Barani devrait être comme suit: Une urée sac et un sac à DAP semailles / lit preperation.",
+    "Comments ZH": "施肥BARANI区域应如下：一吨尿素，在播种时/床水面浮油一袋磷酸二铵。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Safflower",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Rainfed areas. Commercial reccommended varieties are Gilla, US-10, S-208 (spiny) Thori-78 and Pawari-95 (spineless).",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "15 - 20",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "Late harvest": {
+      "Day": "15",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "350 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Fertilization in Barani areas should be as follows: One bag urea and one bag DAP at sowing time/bed preperation.",
+    "Comments ES": "La fertilización en áreas Barani debe ser como sigue: Una urea bolsa y una DAP bolsa en la siembra preperation tiempo / cama.",
+    "Comments FR": "La fertilisation dans les zones Barani devrait être comme suit: Une urée sac et un sac à DAP semailles / lit preperation.",
+    "Comments ZH": "施肥BARANI区域应如下：一吨尿素，在播种时/床水面浮油一袋磷酸二铵。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sunflower",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Spring crop. Developed varieties are: Hysun-33, Hysun-38, 64 A 93, NK 278, LG-3580, LG-5660, Parsun-2",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "12"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "1"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "4 - 5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "150 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "21 - 26",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sunflower",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Autumn crop",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "8"
+    },
+    "Later Sowing": {
+      "Day": "",
+      "Month": ""
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "4 - 5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "21 - 26",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sunflower",
+    "AgroEcological Zone": "Plains of Balochistan",
+    "Additional information": "Spring crop",
+    "Early Sowing": {
+      "Day": "10",
+      "Month": "12"
+    },
+    "Later Sowing": {
+      "Day": "10",
+      "Month": "2"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "4 - 5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "21 - 26",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "These are the areas where there is proper irrigation systems.",
+    "AgroEcological Zone Practices": "In irrigated areas of the province, trees are grown simultaneously with agricultural crops and contribute substantially towards household income through sale of timber and firewood. In addition to these major products, forest flora are traditionally used for number of other minor products including agricultural implements, medicines, and different kinds of fruits and nuts.",
+    "AgroEcological Zone Units": "Thirty-five (35) easily accessible fields/units are working in the province where the staff headed by an Assistant Agricultural Engineer is permanently stationed to serve the farmers by providing services of bulldozers",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Sunflower",
+    "AgroEcological Zone": "Rainfed areas of NWFP",
+    "Additional information": "Spring crop",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "1"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "2"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "4 - 5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "6",
+      "Optimal": "21 - 26",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "South of NWFP. Agriculture mostly depends on rains.",
+    "AgroEcological Zone Practices": "Wheat, vegetables, Potato are major crops. 60 % of NWFP falls under rainfed zone.",
+    "AgroEcological Zone Units": "Dera Ismail Khan.",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Castor bean",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Developed varieties: C-3, (2) US-1 and (3) DS-30",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "12",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "6"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "20 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "Soil with pH ranging from 5 to 6.5 is suitable for castor germination. Sandy and high clayey soil is preferred for its cultivation. Castor crops matures in 120 to 150 days. First picking in November December, Second picking in Jan Feb and third picking in March.",
+    "Comments ES": "Suelo con pH comprendido entre 5 y 6.5 es adecuado para la germinación de ricino. se prefiere suelo arcilloso de arena y de alta para su cultivo. Castor cultivos madura en 120 a 150 días. Primera cosecha en noviembre de diciembre de segunda cosecha en Ene y tercera cosecha en marzo.",
+    "Comments FR": "Substrat ayant un pH allant de 5 à 6.5 est approprié pour la germination de ricin. sol argileux sablonneux et élevé est préféré pour sa culture. Castor cultures arrive à maturité dans 120 à 150 jours. la cueillette d&apos;abord en Novembre Décembre, deuxième cueillette en Jan Fév et troisième cueillette en Mars.",
+    "Comments ZH": "土壤pH值范围在5至6.5是适合于蓖麻发芽。桑迪和高黏性土是优选的培养。蓖麻作物在120至150天的成熟。首先采摘十一月十二月，在一月二月二采摘和第三采摘三月。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Castor bean",
+    "AgroEcological Zone": "Northern Punjab",
+    "Additional information": "Developed varieties: C-3, (2) US-1 and (3) DS-30",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "8"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "12",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "12"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "20 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Soil with pH ranging from 5 to 6.5 is suitable for castor germination. Sandy and high clayey soil is preferred for its cultivation. Castor crops matures in 120 to 150 days. First picking in November December, Second picking in Jan Feb and third picking in March.",
+    "Comments ES": "Suelo con pH comprendido entre 5 y 6.5 es adecuado para la germinación de ricino. se prefiere suelo arcilloso de arena y de alta para su cultivo. Castor cultivos madura en 120 a 150 días. Primera cosecha en noviembre de diciembre de segunda cosecha en Ene y tercera cosecha en marzo.",
+    "Comments FR": "Substrat ayant un pH allant de 5 à 6.5 est approprié pour la germination de ricin. sol argileux sablonneux et élevé est préféré pour sa culture. Castor cultures arrive à maturité dans 120 à 150 jours. la cueillette d&apos;abord en Novembre Décembre, deuxième cueillette en Jan Fév et troisième cueillette en Mars.",
+    "Comments ZH": "土壤pH值范围在5至6.5是适合于蓖麻发芽。桑迪和高黏性土是优选的培养。蓖麻作物在120至150天的成熟。首先采摘十一月十二月，在一月二月二采摘和第三采摘三月。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Garlic",
+    "AgroEcological Zone": "Pothowar region",
+    "Additional information": "Summer crop: Mostly rainfed. Reccommended varieties are Garlic pink, Garlic white and chinese garlic.",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "800 - 1000",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "210",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "13 - 24",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "250 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "This covers the Salt Range and the Potwar Plateau. The climate of this zone is semi-arid with hot summers.",
+    "AgroEcological Zone Practices": "This covers the Salt Range and the Potwar Plateau. In the North the mean monthly rainfall is 200 mm in summer and 35 to 50 mm in winter. The climate in the Southern part is semi-arid and hot. The mean monthly rainfall is 85 mm in summer and 30 to 45 mm in winter. The main crops are wheat, millet, oilseed and pulses.",
+    "AgroEcological Zone Units": "Pothowar region, D.I Khan, Islamabad, Rawalpindi. Mostly rainfed agriculture prevails.",
+    "Comments En": "Fertile soil guarantees good yield of garlic. Sowing should be in rows and the distance between the rows should be 6-8 inches while the distance between the plants should be 3 inches. Nitrogen is extremely necessary for garlic. In november 80 Kg ammonium sulphate or 40 Kg Urea per acre should be used. In december again use ammonium sulphate or urea in the same amount. For the third time in mid January apply 40 Kg ammonium sulphate or 20 Kg urea per acre.",
+    "Comments ES": "El suelo fértil garantiza un buen rendimiento de ajo. La siembra debe estar en filas y la distancia entre las filas debe ser 6-8 pulgadas mientras que la distancia entre las plantas debe ser de 3 pulgadas. El nitrógeno es sumamente necesario para el ajo. En noviembre de 80 Kg de sulfato de amonio o 40 Urea Kg por acre debe ser utilizado. En diciembre de volver a utilizar sulfato de amonio o urea en la misma cantidad. Por tercera vez a mediados de enero aplica 40 sulfato de amonio Kg o 20 Kg de urea por acre.",
+    "Comments FR": "sol Fertile garantit un bon rendement de l&apos;ail. Ensemencement doit être en lignes et la distance entre les lignes doivent être 6-8 pouces, tandis que la distance entre les plantes doit être de 3 pouces. L&apos;azote est extrêmement nécessaire à l&apos;ail. En novembre 80 kg de sulfate d&apos;ammonium ou 40 kg Urée par acre devrait être utilisé. En décembre utiliser à nouveau le sulfate d&apos;ammonium ou de l&apos;urée dans la même quantité. Pour la troisième fois à la mi-Janvier appliquer 40 kg de sulfate d&apos;ammonium ou de 20 kg d&apos;urée par acre.",
+    "Comments ZH": "肥沃的土壤保证了大蒜的产量好。播种应行与行之间的距离应为6-8英寸，而植物之间的距离应为3英寸。氮是大蒜极其必要的。在十一月80公斤硫酸铵或每英亩40公斤尿素应该被使用。在十二月再次使用硫酸铵或尿素在相同的金额。对于中期第三次申请月40公斤硫酸铵或每亩尿素20公斤。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Tomato",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "1st season. (Summer)",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "400 - 450",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "20 - 27",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "The distance between the rows should be 30 inches and the distance between the plants should be 20 inches. Farm yard manure should be given 10 to 12 tonns per acre. Nitrogen fertilizer should be given 46 Kg, Phosphorus 23 Kg, and Pottash 25 Kg per acre. The gap between irrigations should be 7 days. Developed variety is Money maker.",
+    "Comments ES": "La distancia entre las filas debe ser de 30 pulgadas y la distancia entre las plantas debe ser de 20 pulgadas. Granja abono de corral se debe dar de 10 a 12 tonns por acre. El nitrógeno de fertilizantes se debe dar 46 Kg, Fósforo 23 Kg, y Pottash 25 Kg por acre. La brecha entre riegos debe ser de 7 días. variedad desarrollada es fabricante de dinero.",
+    "Comments FR": "La distance entre les lignes doit être de 30 pouces et la distance entre les plantes doit être de 20 pouces. fumier de ferme doit être donné 10 à 12 tonns par acre. L&apos;azote des engrais doit être donné 46 kg, 23 kg de phosphore et Pottash 25 kg par acre. L&apos;écart entre les irrigations devrait être de 7 jours. variété obtenue est le premier fabricant d&apos;argent.",
+    "Comments ZH": "行之间的距离应为30英寸，植物之间的距离应为20英寸。农家肥应给予每亩10至12 tonns。氮肥应给予每英亩46千克，磷23公斤，和Pottash 25公斤。灌溉之间的差距应该是7天。发达的品种是摇钱树。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Tomato",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Second season. (Winter)",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "400 - 450",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "10",
+      "Optimal": "20 - 27",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Eggplant",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Reccommended developed varieties are. Posaprel- Multan selection, PP long etc.",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "11"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "600 - 620",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "22 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 700",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 30 inches and the distance between the plants should be 20 inches. Farm yard manure should be given 10 tonnes per acre, Nitrogen should be given 46 Kg per acre, Phosphorus 23 Kg, and Pottash 25 Kg per acre.",
+    "Comments ES": "Distancia entre las hileras debe ser de 30 pulgadas y la distancia entre las plantas debe ser de 20 pulgadas. Granja abono de corral se debe dar 10 toneladas por acre, el nitrógeno se debe dar 46 kg por acre, Fósforo 23 Kg y 25 Kg Pottash por acre.",
+    "Comments FR": "Distance entre les lignes doit être de 30 pouces et la distance entre les plantes doit être de 20 pouces. fumier de ferme devrait être donné 10 tonnes par acre, l&apos;azote doit être donné 46 kg par acre, phosphore 23 kg, et Pottash 25 kg par acre.",
+    "Comments ZH": "各行之间的距离应为30英寸，植物之间的距离应为20英寸。农场厩肥应给予每英亩10吨，氮应给予每英亩每英亩46公斤，磷23公斤，和Pottash 25公斤。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Cucumber",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Reccommended developed variety is Sialkot No.1",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "4 - 5",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "8"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between rows should be 6.5 ft. and distance between plants should be 20 inches. Farm yard manure should be applied 10 tonnes per acre, Nitrogen 46 Kg/acre, Phosphorus 23 Kg/acre and Pottash 25 Kg/acre.",
+    "Comments ES": "Distancia entre filas debe ser de 6,5 ft. Y la distancia entre las plantas debe ser de 20 pulgadas. Corral estiércol se debe aplicar 10 toneladas por acre, Nitrógeno 46 Kg / acre, fósforo 23 Kg / acre y Pottash 25 Kg / acre.",
+    "Comments FR": "Distance entre les lignes doit être 6,5 pi. Et la distance entre les plantes doit être de 20 pouces. fumier de ferme doit être appliqué 10 tonnes par acre, azote 46 kg / acre, phosphore 23 kg / acre et Pottash 25 kg / acre.",
+    "Comments ZH": "行之间的距离应为6.5英尺，植物之间的距离应为20英寸。农场厩肥应该应用于每英亩10吨，氮46公斤/英亩，磷23公斤/英亩和Pottash 25公斤/英亩。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Okra",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Developed varieties are: T-13, Pusa green, Pusa krinti etc.",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20 - 25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "8"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 30 inces and between plants should be 6 inches. Farm yard manure should be applied 10 tonnes per acre, Nitrogen 46 Kg/acre, Phosphorus 23 Kg/acre and Pottash 25 Kg/acre.",
+    "Comments ES": "Distancia entre las hileras debe ser de 30 inces y entre plantas debe ser de 6 pulgadas. Corral estiércol se debe aplicar 10 toneladas por acre, Nitrógeno 46 Kg / acre, fósforo 23 Kg / acre y Pottash 25 Kg / acre.",
+    "Comments FR": "Distance entre les lignes doivent être 30 vinces et entre les plantes devrait être de 6 pouces. fumier de ferme doit être appliqué 10 tonnes par acre, azote 46 kg / acre, phosphore 23 kg / acre et Pottash 25 kg / acre.",
+    "Comments ZH": "各行之间的距离应在30个inces和植物之间应该是6英寸。农场厩肥应该应用于每英亩10吨，氮46公斤/英亩，磷23公斤/英亩和Pottash 25公斤/英亩。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Bitter gourd",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Reccommended developed variety is Local-Faisalabad No.1",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "8 - 10",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "8"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "24 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 750",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 5 ft. while the distance between the plants should be 20 inches. Farm yard manure should be applied 10 tonnes per acre, Nitrogen 46 Kg/acre, Phosphorus 23 Kg/acre and Pottash 25 Kg/acre.",
+    "Comments ES": "Distancia entre las hileras debe ser de 5 ft., Mientras que la distancia entre las plantas debe ser de 20 pulgadas. Corral estiércol se debe aplicar 10 toneladas por acre, Nitrógeno 46 Kg / acre, fósforo 23 Kg / acre y Pottash 25 Kg / acre.",
+    "Comments FR": "Distance entre les lignes doit être de 5 pieds. Tandis que la distance entre les plantes doit être de 20 pouces. fumier de ferme doit être appliqué 10 tonnes par acre, azote 46 kg / acre, phosphore 23 kg / acre et Pottash 25 kg / acre.",
+    "Comments ZH": "各行之间的距离应该是5英尺而植物之间的距离应为20英寸。农场厩肥应该应用于每英亩10吨，氮46公斤/英亩，磷23公斤/英亩和Pottash 25公斤/英亩。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Watermelon",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Developed variety is Sugar Baby",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "1",
+      "Month": "4"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3 - 4",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "8"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "22 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "400 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 8.5 ft. while the distance between the plants should be 20--28 inches. Farm yard manure should be applied 10 tonnes per acre, Nitrogen 46 Kg/acre, Phosphorus 23 Kg/acre and Pottash 25 Kg/acre.",
+    "Comments ES": "Distancia entre las filas debe ser 8,5 pies. Mientras que la distancia entre las plantas debe ser 20--28 pulgadas. Corral estiércol se debe aplicar 10 toneladas por acre, Nitrógeno 46 Kg / acre, fósforo 23 Kg / acre y Pottash 25 Kg / acre.",
+    "Comments FR": "Distance entre les lignes doit être 8,5 pi. Alors que la distance entre les plantes doivent être 20--28 pouces. fumier de ferme doit être appliqué 10 tonnes par acre, azote 46 kg / acre, phosphore 23 kg / acre et Pottash 25 kg / acre.",
+    "Comments ZH": "各行之间的距离应该是8.5英尺而植物之间的距离应在20--28英寸。农场厩肥应该应用于每英亩10吨，氮46公斤/英亩，磷23公斤/英亩和Pottash 25公斤/英亩。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Onion",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Developed varieties are Red, Desi, Texas, Early Grenu",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "10",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "180 - 210",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "6"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 25",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "350 - 550",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 8 to 10 inches while the distance between the plants should be 4 inches. Farm yard manure should be applied 20 tonnes per acre, while 40 Kg Nitrogen, 30 Kg Phosphorus and 25 Kg Pottash per acre should be applied.",
+    "Comments ES": "Distancia entre las hileras debe ser de 8 a 10 pulgadas, mientras que la distancia entre las plantas debe ser de 4 pulgadas. Granja abono de corral se debe aplicar 20 toneladas por acre, mientras que 40 kg de nitrógeno, fósforo 30 Kg y 25 Kg Pottash por acre se deben aplicar.",
+    "Comments FR": "Distance entre les lignes doit être de 8 à 10 pouces tandis que la distance entre les plantes doit être de 4 pouces. fumier de ferme doit être appliqué 20 tonnes par acre, tandis que 40 kg d&apos;azote, 30 kg de phosphore et 25 kg Pottash par acre doivent être appliquées.",
+    "Comments ZH": "行之间的距离应为8至10英寸，而植物之间的距离应为4英寸。农场厩肥应该应用于每英亩20吨，而40公斤氮，30公斤磷和25千克Pottash每亩应适用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Turnip",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Developed varieties are: Desi, Purple top, Golden ball, Milan red top.",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "8"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "3 - 4",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 120",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "350 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 24 to 28 inches. Distance between the plants should be 2.5 to 3.2 inches. Farm yard manure should be given 15 tonnes per acre, nitrogen 20 Kg/acre, phosphorus 20 Kg/acre, Pottash 25 Kg/acre should be applied.",
+    "Comments ES": "Distancia entre las hileras debe ser de 24 a 28 pulgadas. Distancia entre las plantas debe ser de 2,5 a 3,2 pulgadas. Granja abono de corral se debe dar 15 toneladas por acre, nitrógeno 20 Kg / acre, fósforo 20 Kg / acre, Pottash 25 Kg / acre deben aplicarse.",
+    "Comments FR": "Distance entre les lignes doit être de 24 à 28 pouces. Distance entre les plantes doit être de 2,5 à 3,2 pouces. fumier de ferme devrait être donné 15 tonnes par acre, azote 20 kg / acre, phosphore 20 kg / acre, Pottash 25 kg / acre doivent être appliqués.",
+    "Comments ZH": "各行之间的距离应在24〜28英寸。植物之间的距离应为2.5至3.2英寸。农场厩肥应给予每英亩15吨，氮20千克/英亩，磷20千克/英亩，Pottash 25公斤/英亩应适用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Radish",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Developed varieties are Yokohama, Muno, Shamora, Korean four, Desi etc.",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "7"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "1"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "8 - 10",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "8"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "350 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 24 to 28 inches, distance between the plants should be 2.5 to 3.2 inches. Farm yard manure should be applied 15 tonnes per acre, Nitrogen 20 Kg/acre, Phosphorus 20 Kg/acre, and pottash 25 Kg/acre should be applied.",
+    "Comments ES": "Distancia entre las hileras debe ser de 24 a 28 pulgadas, la distancia entre las plantas debe ser de 2,5 a 3,2 pulgadas. Granja patio estiércol se debe aplicar 15 toneladas por acre, Nitrógeno 20 Kg / acre, fósforo 20 Kg / acre, y pottash 25 Kg / acre deben aplicarse.",
+    "Comments FR": "Distance entre les lignes doit être de 24 à 28 pouces, la distance entre les plantes doit être de 2,5 à 3,2 pouces. fumier de ferme doit être appliqué 15 tonnes par acre, azote 20 kg / acre, phosphore 20 kg / acre, et pottash 25 kg / acre doivent être appliqués.",
+    "Comments ZH": "行之间的距离应为24至28英寸，植物之间的距离应为2.5至3.2英寸。农场厩肥应该应用于每英亩15吨，氮20千克/英亩，磷20千克/英亩，和pottash 25公斤/英亩应适用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Carrot",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Developed varieties are T-29",
+    "Early Sowing": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "Temperature": {
+      "Min": "7",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "400 - 600",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Distance between the rows should be 24 to 28 inches, while the distance between the plants should be 1 to 1.5 inch. Farm yard manure should be given 15 tonnes per acre, nitrogen 20 Kg/acre phosphorus 20 Kg/acre, Pottash 25 Kg/acre should be applied. Gap between irrigation should be 10 days.",
+    "Comments ES": "Distancia entre las hileras debe ser de 24 a 28 pulgadas, mientras que la distancia entre las plantas debe ser de 1 a 1,5 pulgadas. Granja abono de corral se debe dar 15 toneladas por acre, nitrógeno 20 Kg / fósforo acre 20 Kg / acre, Pottash 25 Kg / acre se debe aplicar. Brecha entre el riego debe ser de 10 días.",
+    "Comments FR": "Distance entre les lignes doit être de 24 à 28 pouces, tandis que la distance entre les plantes doit être de 1 à 1,5 pouces. fumier de ferme devrait être donné 15 tonnes par acre, azote 20 kg / phosphore acre 20 kg / acre, Pottash 25 kg / acre doit être appliqué. Écart entre l&apos;irrigation devrait être de 10 jours.",
+    "Comments ZH": "行之间的距离应为24至28英寸，而植物之间的距离应为1至1.5英寸。农场厩肥应给予每英亩15吨，氮20千克/英亩磷20千克/英亩，Pottash 25公斤/英亩应适用。灌溉差距应该是10天。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Cabbage, common",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Developed varieties are: Golden acre, Drum head",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "8"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "500",
+      "Unit": "g/acre"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "4"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "15 - 20",
+      "Max": "30"
+    },
+    "Precipitation": {
+      "Value": "380 - 500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Gap between the irrigations should be 7-10 days.",
+    "Comments ES": "Brecha entre los riegos debe ser de 7-10 días.",
+    "Comments FR": "Écart entre les irrigations devrait être 7-10 jours.",
+    "Comments ZH": "在灌溉差距应该是7-10天。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Alfalfa",
+    "AgroEcological Zone": "Plain and irrigated areas of Pakistan",
+    "Additional information": "Reccommended variety for high yield is Sargodha Lucerne",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "10"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "10 - 14",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Late harvest": {
+      "Day": "",
+      "Month": ""
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "600 - 1200",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "First irrigation to Lucerne crop should be given after 3 weeks of sowing and then give water as per requirement. At the time of sowing one bag of DAP and two bags of Single super phosphate per acre should be applied.",
+    "Comments ES": "Primero riego para cultivo Lucerna se debe dar después de 3 semanas de la siembra y a continuación, dar agua según el requisito. En el momento de la siembra una bolsa de DAP y dos bolsas de Individual súper fosfato por acre debe aplicarse.",
+    "Comments FR": "l&apos;irrigation d&apos;abord à la culture de Lucerne doit être administrée après 3 semaines de semis et donner de l&apos;eau selon l&apos;exigence. Au moment de semer un sac de DAP et deux sacs de phosphate super simple par acre devrait être appliqué.",
+    "Comments ZH": "一是灌溉作物卢塞恩应该3周播种后给予，然后给水按要求。在播种DAP的一个袋子，每亩过磷酸钙的两袋的时间不宜应用。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Cotton",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Irrigation.",
+    "Early Sowing": {
+      "Day": "30",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "18 - 20",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "21 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 1500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "Sowing should be via drill so that the seed can b e burried 2 - 2.5 inches under soil. Distance between the rows should be 2.5 ft. Distance between the plants should be 6-9 inches. Organic matter should be used more and for this purpose the remains of plants should be burried in soil.",
+    "Comments ES": "La siembra debe ser a través de taladro para que la semilla puede b e enterrado 2 - 2,5 pulgadas bajo suelo. Distancia entre las hileras debe ser de 2,5 ft. Distancia entre las plantas debe ser de 6-9 pulgadas. La materia orgánica se debe utilizar más y con este fin los restos de plantas debe ser enterrado en el suelo.",
+    "Comments FR": "Ensemencement doit se faire par forage, de sorte que la semence peut b e burried 2 - 2,5 pouces sous sol. Distance entre les lignes doit être 2,5 pieds. Distance entre les plantes doivent être 6-9 pouces. La matière organique devrait être utilisé plus à cet effet, les restes des plantes doit être inhumé dans le sol.",
+    "Comments ZH": "播种应该经由钻头，使得种子可以Bé掩埋2  - 下土壤2.5英寸。各行之间的距离应为2.5英尺。工厂之间的距离应为6-9英寸。有机质应选用并为此植物的遗骸应在土壤中安葬。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Cotton",
+    "AgroEcological Zone": "Upper Sindh",
+    "Additional information": "Mostly irrigation but in rainfed areas cotton is also produced.",
+    "Early Sowing": {
+      "Day": "30",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "18 - 20",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "21 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 1500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "As its name indicates, it is located in the upper part of sindh province. In Upper Sindh, the thermal equator passes through Sindh. The highest temperature recorded was 127 Degrees F in 1919. The air is generally very dry. In winter frost is common",
+    "AgroEcological Zone Practices": "Mix cropping with good cotton crops.",
+    "AgroEcological Zone Units": "Major cities of upper sindh are: Rohri, Sukkur, Jacobabad, Thul, Kashmore,Shikarpur etc.",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Cotton",
+    "AgroEcological Zone": "Lower Sindh",
+    "Additional information": "Mostly irrigation but in rainfed areas cotton is also produced.",
+    "Early Sowing": {
+      "Day": "30",
+      "Month": "5"
+    },
+    "Later Sowing": {
+      "Day": "15",
+      "Month": "6"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "18 - 20",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "120 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "15",
+      "Month": "9"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "10"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "21 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "500 - 1500",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "The Lower Sindh is effected by the coastline and is damper, humid, SW winds in summer and NE winds in winter and generally the climate is maritime with rainfall little less than the Middle Sindh. The maximum temperature reaches 95-100 Degrees F. In the Kirthar range at 6,000 ft and higher on the Gorakhnath and other peaks in Dadu district, temperatures near freezing have been recorded and brief snow fall is received in winters.",
+    "AgroEcological Zone Practices": "Lower Sindh has a damper and humid maritime climate affected by the south-western winds in summer and north-eastern winds in winter and with lower rainfall than central Sindh.",
+    "AgroEcological Zone Units": "Karachi, Hyderabad are major cities.",
+    "Comments En": "",
+    "Comments ES": "",
+    "Comments FR": "",
+    "Comments ZH": "",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Guar",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Reccommended varieties are:BR-99, BR-90",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "3"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "7"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "50 - 55",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "60 - 90",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "6"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "9"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "25 - 30",
+      "Max": "40"
+    },
+    "Precipitation": {
+      "Value": "400 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "1st irrigation should be given 3 weeks after sowing.",
+    "Comments ES": "Primero de riego se debe dar 3 semanas después de la siembra.",
+    "Comments FR": "1er irrigation devrait être donné 3 semaines après le semis.",
+    "Comments ZH": "第一次灌水应播种后3周给予。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Berseem",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Reccommended varieties are:Agaiti, Pachaiti, Peshawari",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20 - 25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "600 - 1000",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "1st irrigation should be given after one week of sowing.",
+    "Comments ES": "Primero el riego debe ser administrada después de una semana de la siembra.",
+    "Comments FR": "1er irrigation doit être administrée après une semaine de semis.",
+    "Comments ZH": "第一次灌溉应该播种一周后给出。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Berseem",
+    "AgroEcological Zone": "Northern Punjab",
+    "Additional information": "Reccommended varieties are:Agaiti, Pachaiti, Peshawari",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20 - 25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "600 - 1000",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "1st irrigation should be given after one week of sowing.",
+    "Comments ES": "Primero el riego debe ser administrada después de una semana de la siembra.",
+    "Comments FR": "1er irrigation doit être administrée après une semaine de semis.",
+    "Comments ZH": "第一次灌溉应该播种一周后给出。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "Berseem",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Reccommended varieties are:Agaiti, Pachaiti, Peshawari",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "9"
+    },
+    "Later Sowing": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "20 - 25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 150",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "12"
+    },
+    "Late harvest": {
+      "Day": "31",
+      "Month": "5"
+    },
+    "Temperature": {
+      "Min": "5",
+      "Optimal": "20 - 25",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "600 - 1000",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "1st irrigation should be given after one week of sowing.",
+    "Comments ES": "Primero el riego debe ser administrada después de una semana de la siembra.",
+    "Comments FR": "1er irrigation doit être administrée après une semaine de semis.",
+    "Comments ZH": "第一次灌溉应该播种一周后给出。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "S.S. Hybrid (Sadabahar)",
+    "AgroEcological Zone": "Central Punjab",
+    "Additional information": "Reccommended varieties are:Pak-Sudax, SSG-988, Sadabahar",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "31°21′52″N 72°59′40″E / 31.36444. Central punjab is rich in agricultural practices and a good part of economy depends on agriculture.",
+    "AgroEcological Zone Practices": "Irrigation. Mix cropping system. Major wheat- and cotton-producing area",
+    "AgroEcological Zone Units": "Faisalabad, Toba tekesingh, Kamalia",
+    "Comments En": "1st irrigation should be given three weeks after sowing.",
+    "Comments ES": "Primero de riego se debe dar tres semanas después de la siembra.",
+    "Comments FR": "1er irrigation devrait être donné trois semaines après le semis.",
+    "Comments ZH": "第一次灌溉应该播种三周后给出。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "S.S. Hybrid (Sadabahar)",
+    "AgroEcological Zone": "Northern Punjab",
+    "Additional information": "Reccommended varieties are:Pak-Sudax, SSG-988, Sadabahar",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "1st irrigation should be given three weeks after sowing.",
+    "Comments ES": "Primero de riego se debe dar tres semanas después de la siembra.",
+    "Comments FR": "1er irrigation devrait être donné trois semaines après le semis.",
+    "Comments ZH": "第一次灌溉应该播种三周后给出。",
+    "Comments AR": "",
+    "Comments RU": ""
+  },
+  {
+    "Country Name": "Pakistan",
+    "Crop": "S.S. Hybrid (Sadabahar)",
+    "AgroEcological Zone": "Southern Punjab",
+    "Additional information": "Reccommended varieties are:Pak-Sudax, SSG-988, Sadabahar",
+    "Early Sowing": {
+      "Day": "1",
+      "Month": "2"
+    },
+    "Later Sowing": {
+      "Day": "31",
+      "Month": "3"
+    },
+    "All year": "no",
+    "Sowing rate": {
+      "Value": "25",
+      "Unit": "kg/ha"
+    },
+    "Growing period": {
+      "Value": "90 - 180",
+      "Period": "days"
+    },
+    "Early harvest": {
+      "Day": "1",
+      "Month": "5"
+    },
+    "Late harvest": {
+      "Day": "30",
+      "Month": "11"
+    },
+    "Temperature": {
+      "Min": "15",
+      "Optimal": "20 - 30",
+      "Max": "35"
+    },
+    "Precipitation": {
+      "Value": "500 - 800",
+      "Unit": "mm/year"
+    },
+    "AgroEcological Zone Description": "",
+    "AgroEcological Zone Practices": "",
+    "AgroEcological Zone Units": "",
+    "Comments En": "1st irrigation should be given three weeks after sowing.",
+    "Comments ES": "Primero de riego se debe dar tres semanas después de la siembra.",
+    "Comments FR": "1er irrigation devrait être donné trois semaines après le semis.",
+    "Comments ZH": "第一次灌溉应该播种三周后给出。",
+    "Comments AR": "",
+    "Comments RU": ""
+  }
+]
