@@ -1,5 +1,15 @@
 const fs = require("fs");
 
+// Helper function to convert month/day to day of year
+const getDayOfYear = (month, day) => {
+  const daysInMonth = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  let dayOfYear = day;
+  for (let i = 1; i < month; i++) {
+    dayOfYear += daysInMonth[i];
+  }
+  return dayOfYear;
+};
+
 const cropUtils = {
   readJsonData: (jsonFilePath) => {
     try {
@@ -101,16 +111,6 @@ const cropUtils = {
     );
 
     return Math.max(0, 1 - distanceFromPeriod / 30); // Reduce score by 0.033 for each day away from sowing period
-  },
-
-  // Helper function to convert month/day to day of year
-  getDayOfYear: (month, day) => {
-    const daysInMonth = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-    let dayOfYear = day;
-    for (let i = 1; i < month; i++) {
-      dayOfYear += daysInMonth[i];
-    }
-    return dayOfYear;
   },
 
   // Helper function to calculate various danger levels

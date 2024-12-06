@@ -332,246 +332,251 @@ const cropDataController = {
     }
   },
 
-  findRecommendedCrops: async (req, res) => {
-    try {
-      const { temperatures, country, region, startDate } = req.body;
+      findRecommendedCrops: async (req, res) => {
+        try {
+          const { temperatures, country, region, startDate } = req.body;
 
-      // Validate input
-      if (
-        !temperatures ||
-        !Array.isArray(temperatures) ||
-        !country ||
-        !region ||
-        !startDate
-      ) {
-        return responseUtils.handleBadRequest(
-          res,
-          "Please provide temperatures array, country, region and start date"
-        );
-      }
+          // Validate input
+          if (
+            !temperatures ||
+            !Array.isArray(temperatures) ||
+            !country ||
+            !region ||
+            !startDate
+          ) {
+            return responseUtils.handleBadRequest(
+              res,
+              "Please provide temperatures array, country, region and start date"
+            );
+          }
 
-      // Read all crop data
-      const cropData = cropUtils.readJsonData(cropCalendarData);
+          // Read all crop data
+          const cropData = cropUtils.readJsonData(cropCalendarData);
 
-      // Get crops for the specified region
-      const regionalCrops = cropData.filter(
-        (crop) =>
-          crop["Country Name"] === country &&
-          crop["AgroEcological Zone"] === region
-      );
-
-      // Calculate average temperature from forecast
-      const avgTemperature =
-        temperatures.reduce((sum, temp) => sum + temp, 0) / temperatures.length;
-      const minTemperature = Math.min(...temperatures);
-      const maxTemperature = Math.max(...temperatures);
-
-      // Parse the start date
-      const currentDate = new Date(startDate);
-      const currentMonth = currentDate.getMonth() + 1; // JavaScript months are 0-based
-      const currentDay = currentDate.getDate();
-
-      const recommendations = regionalCrops.map((crop) => {
-        // Parse temperature ranges
-        const tempRanges = cropUtils.parseTempRanges(crop.Temperature);
-
-        // Check sowing dates
-        const earlyDate = {
-          month: parseInt(crop["Early Sowing"].Month),
-          day: parseInt(crop["Early Sowing"].Day),
-        };
-
-        const lateDate = {
-          month: parseInt(crop["Later Sowing"].Month),
-          day: parseInt(crop["Later Sowing"].Day),
-        };
-
-        // Calculate suitability scores
-        const temperatureScore = cropUtils.calculateTemperatureScore(
-          avgTemperature,
-          minTemperature,
-          maxTemperature,
-          tempRanges
-        );
-
-        const dateScore = cropUtils.calculateDateScore(
-          currentMonth,
-          currentDay,
-          earlyDate,
-          lateDate
-        );
-
-        // Calculate overall suitability
-        const overallScore = (temperatureScore + dateScore) / 2;
-
-        return {
-          crop: crop.Crop,
-          suitability: overallScore,
-          details: {
-            temperatureCompatibility: temperatureScore,
-            sowingTimeCompatibility: dateScore,
-            idealTempRange: {
-              min: tempRanges.min,
-              optimal: tempRanges.optimal,
-              max: tempRanges.max,
-            },
-            sowingDates: {
-              early: `${earlyDate.day}/${earlyDate.month}`,
-              late: `${lateDate.day}/${lateDate.month}`,
-            },
-            additionalInfo: crop["Additional information"],
-          },
-        };
-      });
-
-      // Sort recommendations by suitability score
-      const sortedRecommendations = recommendations
-        .sort((a, b) => b.suitability - a.suitability)
-        .filter((rec) => rec.suitability > 0.4); // Only include reasonably suitable crops
-
-      return responseUtils.handleSuccess(
-        res,
-        {
-          weatherSummary: {
-            average: avgTemperature.toFixed(1),
-            min: minTemperature,
-            max: maxTemperature,
-          },
-          recommendations: sortedRecommendations,
-        },
-        "Crop recommendations generated successfully"
-      );
-    } catch (error) {
-      console.log(error);
-      return responseUtils.handleFailure(res, error);
-    }
-  },
-
-  findEndangeredCrops: async (req, res) => {
-    try {
-      const { temperatures, country, region, startDate } = req.body;
-
-      // Validate input
-      if (
-        !temperatures ||
-        !Array.isArray(temperatures) ||
-        !country ||
-        !region ||
-        !startDate
-      ) {
-        return responseUtils.handleBadRequest(
-          res,
-          "Please provide temperatures array, country, region and start date"
-        );
-      }
-
-      // Read all crop data
-      const cropData = cropUtils.readJsonData(cropCalendarData);
-
-      // Get crops for the specified region
-      const regionalCrops = cropData.filter(
-        (crop) =>
-          crop["Country Name"] === country &&
-          crop["AgroEcological Zone"] === region
-      );
-
-      // Calculate temperature metrics
-      const avgTemperature =
-        temperatures.reduce((sum, temp) => sum + temp, 0) / temperatures.length;
-      const minTemperature = Math.min(...temperatures);
-      const maxTemperature = Math.max(...temperatures);
-
-      // Parse the start date
-      const currentDate = new Date(startDate);
-      const currentMonth = currentDate.getMonth() + 1;
-      const currentDay = currentDate.getDate();
-
-      const endangeredCrops = regionalCrops
-        .map((crop) => {
-          // Parse temperature ranges
-          const tempRanges = cropUtils.parseTempRanges(crop.Temperature);
-
-          // Check sowing dates
-          const earlyDate = {
-            month: parseInt(crop["Early Sowing"].Month),
-            day: parseInt(crop["Early Sowing"].Day),
-          };
-
-          const lateDate = {
-            month: parseInt(crop["Later Sowing"].Month),
-            day: parseInt(crop["Later Sowing"].Day),
-          };
-
-          // Calculate danger levels
-          const dangers = cropUtils.calculateDangers(
-            avgTemperature,
-            minTemperature,
-            maxTemperature,
-            tempRanges
+          // Get crops for the specified region
+          const regionalCrops = cropData.filter(
+            (crop) =>
+              crop["Country Name"] === country &&
+              crop["AgroEcological Zone"] === region
           );
 
-          // Check if current date is within sowing period
-          const dateScore = cropUtils.calculateDateScore(
-            currentMonth,
-            currentDay,
-            earlyDate,
-            lateDate
-          );
+          // Calculate average temperature from forecast
+          const avgTemperature =
+            temperatures.reduce((sum, temp) => sum + temp, 0) / temperatures.length;
+          const minTemperature = Math.min(...temperatures);
+          const maxTemperature = Math.max(...temperatures);
 
-          // Only include if the crop is in active growing period
-          if (dateScore > 0) {
+          // Parse the start date
+          const currentDate = new Date(startDate);
+          const currentMonth = currentDate.getMonth() + 1; // JavaScript months are 0-based
+          const currentDay = currentDate.getDate();
+
+          const recommendations = regionalCrops.map((crop) => {
+            // Parse temperature ranges
+            const tempRanges = cropUtils.parseTempRanges(crop.Temperature);
+
+            // Check sowing dates
+            const earlyDate = {
+              month: parseInt(crop["Early Sowing"].Month),
+              day: parseInt(crop["Early Sowing"].Day),
+            };
+
+            const lateDate = {
+              month: parseInt(crop["Later Sowing"].Month),
+              day: parseInt(crop["Later Sowing"].Day),
+            };
+
+            // Calculate suitability scores
+            const temperatureScore = cropUtils.calculateTemperatureScore(
+              avgTemperature,
+              minTemperature,
+              maxTemperature,
+              tempRanges
+            );
+
+            const dateScore = cropUtils.calculateDateScore(
+              currentMonth,
+              currentDay,
+              earlyDate,
+              lateDate
+            );
+
+            // Calculate overall suitability
+            const overallScore = (temperatureScore + dateScore) / 2;
+
             return {
               crop: crop.Crop,
-              riskLevel: cropUtils.calculateOverallRisk(dangers),
+              suitability: overallScore,
               details: {
-                temperature: {
-                  current: {
-                    avg: avgTemperature.toFixed(1),
-                    min: minTemperature,
-                    max: maxTemperature,
-                  },
-                  ideal: {
-                    min: tempRanges.min,
-                    optimal: tempRanges.optimal,
-                    max: tempRanges.max,
-                  },
+                temperatureCompatibility: temperatureScore,
+                sowingTimeCompatibility: dateScore,
+                idealTempRange: {
+                  min: tempRanges.min,
+                  optimal: tempRanges.optimal,
+                  max: tempRanges.max,
                 },
-                risks: dangers,
                 sowingDates: {
                   early: `${earlyDate.day}/${earlyDate.month}`,
                   late: `${lateDate.day}/${lateDate.month}`,
                 },
-                recommendations: cropUtils.generateRecommendations(dangers),
                 additionalInfo: crop["Additional information"],
               },
             };
+          });
+
+          // Sort recommendations by suitability score
+          const sortedRecommendations = recommendations
+            .sort((a, b) => b.suitability - a.suitability)
+            .filter((rec) => rec.suitability > 0.4); // Only include reasonably suitable crops
+
+          return responseUtils.handleSuccess(
+            res,
+            {
+              weatherSummary: {
+                average: avgTemperature.toFixed(1),
+                min: minTemperature,
+                max: maxTemperature,
+              },
+              recommendations: sortedRecommendations,
+            },
+            "Crop recommendations generated successfully"
+          );
+        } catch (error) {
+          console.log(error);
+          return responseUtils.handleFailure(res, error);
+        }
+      },
+
+      findEndangeredCrops: async (req, res) => {
+        try {
+          const { temperatures, country, region, startDate } = req.body;
+          console.log(temperatures);
+          console.log(country);
+          console.log(region);
+          console.log(startDate);
+
+          console.log(req.body);
+
+          // Validate input
+          if (
+            !temperatures ||
+            !country ||
+            !region ||
+            !startDate
+          ) {
+            return responseUtils.handleBadRequest(
+              res,
+              "Please provide temperatures array, country, region and start date"
+            );
           }
-          return null;
-        })
-        .filter((crop) => crop !== null && crop.riskLevel > 0);
 
-      // Sort by risk level (highest risk first)
-      const sortedEndangeredCrops = endangeredCrops.sort(
-        (a, b) => b.riskLevel - a.riskLevel
-      );
+          // Read all crop data
+          const cropData = cropUtils.readJsonData(cropCalendarData);
 
-      return responseUtils.handleSuccess(
-        res,
-        {
-          weatherSummary: {
-            average: avgTemperature.toFixed(1),
-            min: minTemperature,
-            max: maxTemperature,
-          },
-          endangeredCrops: sortedEndangeredCrops,
-        },
-        "Endangered crops analysis completed successfully"
-      );
-    } catch (error) {
-      console.log(error);
-      return responseUtils.handleFailure(res, error);
-    }
-  },
+          // Get crops for the specified region
+          const regionalCrops = cropData.filter(
+            (crop) =>
+              crop["Country Name"] === country &&
+              crop["AgroEcological Zone"] === region
+          );
+
+          // Calculate temperature metrics
+          const avgTemperature =
+            temperatures.reduce((sum, temp) => sum + temp, 0) / temperatures.length;
+          const minTemperature = Math.min(...temperatures);
+          const maxTemperature = Math.max(...temperatures);
+
+          // Parse the start date
+          const currentDate = new Date(startDate);
+          const currentMonth = currentDate.getMonth() + 1;
+          const currentDay = currentDate.getDate();
+
+          const endangeredCrops = regionalCrops
+            .map((crop) => {
+              // Parse temperature ranges
+              const tempRanges = cropUtils.parseTempRanges(crop.Temperature);
+
+              // Check sowing dates
+              const earlyDate = {
+                month: parseInt(crop["Early Sowing"].Month),
+                day: parseInt(crop["Early Sowing"].Day),
+              };
+
+              const lateDate = {
+                month: parseInt(crop["Later Sowing"].Month),
+                day: parseInt(crop["Later Sowing"].Day),
+              };
+
+              // Calculate danger levels
+              const dangers = cropUtils.calculateDangers(
+                avgTemperature,
+                minTemperature,
+                maxTemperature,
+                tempRanges
+              );
+
+              // Check if current date is within sowing period
+              const dateScore = cropUtils.calculateDateScore(
+                currentMonth,
+                currentDay,
+                earlyDate,
+                lateDate
+              );
+
+              // Only include if the crop is in active growing period
+              if (dateScore > 0) {
+                return {
+                  crop: crop.Crop,
+                  riskLevel: cropUtils.calculateOverallRisk(dangers),
+                  details: {
+                    temperature: {
+                      current: {
+                        avg: avgTemperature.toFixed(1),
+                        min: minTemperature,
+                        max: maxTemperature,
+                      },
+                      ideal: {
+                        min: tempRanges.min,
+                        optimal: tempRanges.optimal,
+                        max: tempRanges.max,
+                      },
+                    },
+                    risks: dangers,
+                    sowingDates: {
+                      early: `${earlyDate.day}/${earlyDate.month}`,
+                      late: `${lateDate.day}/${lateDate.month}`,
+                    },
+                    recommendations: cropUtils.generateRecommendations(dangers),
+                    additionalInfo: crop["Additional information"],
+                  },
+                };
+              }
+              return null;
+            })
+            .filter((crop) => crop !== null && crop.riskLevel > 0);
+
+          // Sort by risk level (highest risk first)
+          const sortedEndangeredCrops = endangeredCrops.sort(
+            (a, b) => b.riskLevel - a.riskLevel
+          );
+
+          return responseUtils.handleSuccess(
+            res,
+            {
+              weatherSummary: {
+                average: avgTemperature.toFixed(1),
+                min: minTemperature,
+                max: maxTemperature,
+              },
+              endangeredCrops: sortedEndangeredCrops,
+            },
+            "Endangered crops analysis completed successfully"
+          );
+        } catch (error) {
+          console.log(error);
+          return responseUtils.handleFailure(res, error);
+        }
+      },
 };
 
 module.exports = cropDataController;

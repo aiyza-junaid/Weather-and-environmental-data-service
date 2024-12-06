@@ -23,6 +23,27 @@ const historicalWeatherController = {
       responseUtils.handleFailure(res, error.message);
     }
   },
+  getHistoricalWeatherCity: async (req, res) => {
+    try {
+    
+      const { city } = req.query;
+
+      if (!city) {
+        return responseUtils.handleFailure(res, 'city is required.');
+      }
+
+    
+      const weatherData = await historicalWeatherService.getHistoricalWeather(city);
+      responseUtils.handleSuccess(
+        res,
+        weatherData,
+        'Historical weather data retrieved successfully.'
+      );
+    } catch (error) {
+      console.error('Error in controller:', error.message);
+      responseUtils.handleFailure(res, error.message);
+    }
+  },
 };
 
 module.exports = historicalWeatherController;
